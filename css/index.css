@@ -1,9 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 nav {
-    border: 2px solid #c6c6c6;
+    border: 2px solid #9e9d99;
+    border-radius: 5px;
+    background-color: white;
 }
 
 .flex {
@@ -13,11 +16,6 @@ nav {
 
 .between {
     justify-content: space-between;
-}
-
-.block {
-    display: block;
-    margin-top: 10px;
 }
 
 /*MENU*/
@@ -33,23 +31,25 @@ ul.menu > li > a {
     display: block;
     padding: 1.5rem;
     text-decoration: none;
-    color: #2e1115;
+    color: #4d6e9b;
+    font-weight: bold;
+    
 }
 
 /*hover*/
 ul.menu > li > a:hover {
-    color: #106466;
+    color: #265078;
     font-size: larger;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 ul > li > a > i.fa-solid {
-    color: #2e1115;
+    color: #4d6e9b;
     padding: 0.5rem;
 }
 
 ul > li > a:hover i.fa-solid {
-    color: #106466;
+    color: #265078;
 }
 
 /*submenu*/
@@ -89,56 +89,97 @@ ul.menu li.sub:hover ul.submenu {
 
 /*Search*/
 ul > li.search  > a > input{
-    border-radius: 1rem;
+    border-radius: 0.4rem ;
     width: 200px;
     height: 25px;
+    border-style: solid;
+    border-color: #4d6e9b;
+}
+
+ul > li.search  > a:hover > input{
+    border-color: #265078;
+    border-width: 2.5px;
 }
 
 /*movies*/
+section {
+    margin: 8px;
+}
+
 div.movies {
-    background-image: url("../imanges/rapPhim.jpg");
-    background-repeat: no-repeat;
-    position: absolute;
+    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
     border: 1px solid #edf2f9;
     border-radius: 0 0 10px 10px;
-    width: 98.6%;
+    flex-wrap: wrap;
 }
 
 div.movie {
     box-sizing: border-box;
-    flex-wrap: wrap;
-    width: 25%;
+    width: 19.3%;
     border: 1px solid white ;
     border-radius: 10px;
-    height: 460px;
-    padding: 10px;
-    position: relative;
+    height: 490px;
     margin: 4px;
-    position: relative;
-    background-color: transparent;
+    margin-top: 10px;
+    justify-content: space-around;
 }
 
 div.movie img {
     width: 100%;
     border-radius: 10px 10px 0 0;
     border-style: none;
-    height: 100%;
 }
 
 div.movie a {
     text-decoration: none;
     color: white;
-    top: 0;
+}
+
+div.content-mv {
+    padding-left: 1rem;
 }
 
 /*subject*/
 .subject {
     text-align: center;
-    background-color: #106466;
-    color: white;
+    background-image: linear-gradient(to top, #13547a 0%, #0c3483 100%);
+    color: whitesmoke;
     margin-bottom: 0;
     padding: 1rem;
     border-bottom: none;
     border-radius: 10px 10px 0 0;
+}
+
+/*more*/
+div.movies > div.btn > a > input{
+    text-decoration: none;
+    color: #f2f2f2;
+    font-weight: bold;
+    font-size: large;
+    padding: 18px 25px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 540px;
+    background-color: #2f4455;
+    border-radius: 20px;
+    border: 1px solid  #edf2f9;
+}
+
+/* go to top */
+#go {
+    display: block;
+    padding: 1rem;
+    right: 10px;
+    bottom: 10px;
+    position: fixed;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    box-shadow: 0.5em 0.5em 0 0 rgba(15, 28, 63, 0.125);
+    border: 1px solid #edf2f9;
+}
+
+#go i {
+    color: #6f2232;
+    
 }
 

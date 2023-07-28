@@ -10,10 +10,13 @@
     <link rel="shotcut icon" href="imanges/iconTicket.png"/>
     <link href="css/index.css" rel="stylesheet"/>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/index.js"></script>
 </head>
 
 <body>
-    <nav class="flex between">
+    <a href="javascript:;" id="go"><i class="fa-solid fa-arrow-turn-up fa-2xl"></i></a>
+    <nav class="flex between" id="menu">
         <ul class="left menu flex">
             <li><a href="#">Đặt vé</a></li>
             <li><a href="#">Lịch chiếu</a></li>
@@ -65,10 +68,10 @@
                     <a href="#">
                         <div>
                             <div><img src="imanges/movies/Fanti.jpeg" alt="Film"/></div>
-                            <div>
+                            <div class="content-mv">
                                 <h4>Fanti</h4>
+                                <div>Chính Kịch</div>
                             </div>
-                            <div>Chính Kịch</div>
                         </div>
                     </a>
                 </div>
@@ -77,10 +80,10 @@
                     <a href="#">
                         <div>
                             <div><img src="imanges/movies/XSCNT.jpg" alt="Film"/></div>
-                            <div>
+                            <div class="content-mv">
                                 <h4>Xứ sở các nguyên tố</h4>
+                                <div>Hoạt Hình</div>
                             </div>
-                            <div>Hoạt Hình</div>
                         </div>
                     </a>
                 </div>
@@ -89,22 +92,23 @@
                     <a href="#">
                         <div>
                             <div><img src="imanges/movies/TTLDCN.jpg" alt="Film"/></div>
-                            <div>
+                            <div class="content-mv">
                                 <h4>Thám Tử Lừng Danh Conan 26: Tàu Ngầm Sắt Màu Đen</h4>
+                                <div>Hoạt Hình</div>
                             </div>
-                            <div>Hoạt Hình</div>
                         </div>
                     </a>
                 </div>
 
                 <div class="movie">
+
                     <a href="#">
                         <div>
                             <div><img src="imanges/movies/DTMA.jpg" alt="Film"/></div>
-                            <div>
+                            <div class="content-mv">
                                 <h4>Dinh Thự Ma Ám</h4>
+                                <div>Kinh Dị</div>
                             </div>
-                            <div>Kinh Dị</div>
                         </div>
                     </a>
                 </div>
@@ -113,31 +117,29 @@
                     <a href="#">
                         <div>
                             <div><img src="imanges/movies/NVBKT.jpg" alt="Film"/></div>
-                            <div>
+                            <div class="content-mv">
                                 <h4>Nhiệm Vụ Bất Khả Thi 7: Nghiệp Báo Phần 1</h4>
+                                <div>Phiêu Lưu</div>
                             </div>
-                            <div>Phiêu Lưu</div>
                         </div>
                     </a>
                 </div>
 
-                
-                <!-- cho xuống hàng -->
-                <div class="block"><a href="#">Xem thêm</a></div>
+                <div class="btn"><a href="#"><input type="button" value="Xem thêm"></a></div>
             </div>
         </section>
-<!-- 
+
         <section>
             <h1 class="subject">Phim sắp chiếu</h1>
             <div class="movies flex">
                 <div class="movie">
                     <a href="#">
                         <div>
-                            <div><img src="imanges/movies/Fanti.jpeg" alt="Film"></div>
-                            <div>
+                            <div><img src="imanges/movies/Fanti.jpeg" alt="Film"/></div>
+                            <div class="content-mv">
                                 <h4>Fanti</h4>
+                                <div>Chính Kịch</div>
                             </div>
-                            <div>Chính Kịch</div>
                         </div>
                     </a>
                 </div>
@@ -145,11 +147,11 @@
                 <div class="movie">
                     <a href="#">
                         <div>
-                            <div><img src="imanges/movies/XSCNT.jpg" alt="Film"></div>
-                            <div>
+                            <div><img src="imanges/movies/XSCNT.jpg" alt="Film"/></div>
+                            <div class="content-mv">
                                 <h4>Xứ sở các nguyên tố</h4>
+                                <div>Hoạt Hình</div>
                             </div>
-                            <div>Hoạt Hình</div>
                         </div>
                     </a>
                 </div>
@@ -157,23 +159,24 @@
                 <div class="movie">
                     <a href="#">
                         <div>
-                            <div><img src="imanges/movies/TTLDCN.jpg" alt="Film"></div>
-                            <div>
+                            <div><img src="imanges/movies/TTLDCN.jpg" alt="Film"/></div>
+                            <div class="content-mv">
                                 <h4>Thám Tử Lừng Danh Conan 26: Tàu Ngầm Sắt Màu Đen</h4>
+                                <div>Hoạt Hình</div>
                             </div>
-                            <div>Hoạt Hình</div>
                         </div>
                     </a>
                 </div>
 
                 <div class="movie">
+
                     <a href="#">
                         <div>
-                            <div><img src="imanges/movies/DTMA.jpg" alt="Film"></div>
-                            <div>
+                            <div><img src="imanges/movies/DTMA.jpg" alt="Film"/></div>
+                            <div class="content-mv">
                                 <h4>Dinh Thự Ma Ám</h4>
+                                <div>Kinh Dị</div>
                             </div>
-                            <div>Kinh Dị</div>
                         </div>
                     </a>
                 </div>
@@ -181,20 +184,18 @@
                 <div class="movie">
                     <a href="#">
                         <div>
-                            <div><img src="imanges/movies/NVBKT.jpg" alt="Film"></div>
-                            <div>
+                            <div><img src="imanges/movies/NVBKT.jpg" alt="Film"/></div>
+                            <div class="content-mv">
                                 <h4>Nhiệm Vụ Bất Khả Thi 7: Nghiệp Báo Phần 1</h4>
+                                <div>Phiêu Lưu</div>
                             </div>
-                            <div>Phiêu Lưu</div>
                         </div>
                     </a>
                 </div>
-
-                 cho xuống hàng -->
-            <!-- <div style="display: block !important;"><a href="#">Xem thêm</a></div>
                 
+                <div class="btn"><a href="#"><input type="button" value="Xem thêm"></a></div>
             </div>
-        </section>  -->
+        </section>
     </main>
     <aside></aside>
     <footer></footer>
