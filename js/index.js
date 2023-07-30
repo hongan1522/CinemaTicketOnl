@@ -23,7 +23,10 @@ $(document).ready(() => {
             $("#menu").css("position", "static");
         } 
     });
+
+    
 });
+
 
 
 

@@ -19,7 +19,6 @@ nav {
 }
 
 /*MENU*/
-
 ul.menu {
     list-style-type: none;
     text-align: center;
@@ -121,7 +120,7 @@ div.movie {
     height: 490px;
     margin: 4px;
     margin-top: 10px;
-    justify-content: space-around;
+    border-top: transparent;
 }
 
 div.movie img {
@@ -150,9 +149,8 @@ div.content-mv {
     border-radius: 10px 10px 0 0;
 }
 
-/*more*/
-div.movies > div.btn > a > input{
-    text-decoration: none;
+/*btn-more*/
+div.movies > div.btn > a > button {
     color: #f2f2f2;
     font-weight: bold;
     font-size: large;
@@ -165,6 +163,27 @@ div.movies > div.btn > a > input{
     border: 1px solid  #edf2f9;
 }
 
+div.btn  a {
+    text-decoration: none;
+    
+}
+
+i.fa-arrow-down-long {
+    animation: more 1s infinite;
+}
+
+@keyframes more {
+    0%, 100% {
+        transform: translateY(-30%);
+        animation-timing-function: cubic-bezier(.8,0,1,1);
+    }
+  
+    50% {
+        transform: none;
+        animation-timing-function: cubic-bezier(0,0,.2,1);
+    }
+}
+
 /* go to top */
 #go {
     display: block;
@@ -174,12 +193,113 @@ div.movies > div.btn > a > input{
     position: fixed;
     background-color: whitesmoke;
     border-radius: 50%;
-    box-shadow: 0.5em 0.5em 0 0 rgba(15, 28, 63, 0.125);
+    box-shadow: 0.35em 0.35em 0 0 rgba(15, 28, 63, 0.125);
     border: 1px solid #edf2f9;
 }
 
 #go i {
     color: #6f2232;
-    
 }
+
+/*footer*/
+footer {
+    background-color: #010101;
+    color: #d2d2d2;
+}
+
+footer div {
+    justify-content: space-around;
+}
+
+div.imgFooter {
+    width: 14%;
+}
+
+div.imgFooter img{
+    width: 50%;
+    border-radius: 40%;
+    border: 2px solid transparent;
+    box-shadow: 0.5em 0.5em 0 0 #262626;
+}
+
+ul.list-ft > li:first-child{
+    list-style-type: none;
+    color: #edf2f9;
+}
+
+ul.list-ft > li {
+    list-style-type: "\27A2 \2003";
+    margin: 3px;
+}
+
+.list-ft > li > a {
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+.list-ft > li > a:hover {
+    color: #edf2f9;
+    font-weight: bold;
+}
+
+div.footer {
+    width: 30%;
+}
+
+div.footer img{
+    width: 100%;
+}
+
+table {
+    border-spacing: 10px;
+    width: 330px;
+}
+
+a.link {
+    text-decoration: none;
+    color: #d2d2d2;
+}
+
+a.link:hover {
+    color: #edf2f9;
+    font-weight: bold;
+}
+
+/*cinema*/
+div.cinemas {
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+div.cinema {
+    width: 48%;
+    justify-content: space-around;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 141px;
+}
+
+div.cinema  img {
+    width: 45%;
+    border-radius: 10px 10px 0 0;
+    padding-left: 40px;
+    padding-top: 15px;
+}
+
+div.cinema a {
+    text-decoration: none;
+    color: #262626;
+}
+
+div.content-cm {
+    padding-right: 2rem;
+}
+
+
+
+
 

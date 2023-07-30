@@ -15,7 +15,9 @@
 </head>
 
 <body>
-    <a href="javascript:;" id="go"><i class="fa-solid fa-arrow-turn-up fa-2xl"></i></a>
+    <a href="javascript:;" id="go">
+        <i class="fa-solid fa-arrow-turn-up fa-xl"></i>
+    </a>
     <nav class="flex between" id="menu">
         <ul class="left menu flex">
             <li><a href="#">Đặt vé</a></li>
@@ -125,7 +127,11 @@
                     </a>
                 </div>
 
-                <div class="btn"><a href="#"><input type="button" value="Xem thêm"></a></div>
+                <div class="btn"><a href="#">
+                    <button type="button" class="flex">
+                        <div><i class="fa-solid fa-arrow-down-long"></i></div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Xem thêm</button></a>
+                </div>
             </div>
         </section>
 
@@ -169,7 +175,6 @@
                 </div>
 
                 <div class="movie">
-
                     <a href="#">
                         <div>
                             <div><img src="imanges/movies/DTMA.jpg" alt="Film"/></div>
@@ -193,12 +198,116 @@
                     </a>
                 </div>
                 
-                <div class="btn"><a href="#"><input type="button" value="Xem thêm"></a></div>
+                <div class="btn"><a href="#">
+                    <button type="button" class="flex">
+                        <div><i class="fa-solid fa-arrow-down-long"></i></div>
+                        &nbsp;&nbsp;&nbsp;&nbsp;Xem thêm</button></a>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h1 style="text-align: center;">Rạp chiếu phim</h1>
+            <div>
+                <div class="cinemas flex between">
+                    <div class="cinema">
+                        <a href="#">
+                            <div class="flex">
+                                <div><img src="imanges/cinemas/CGV.jpg" alt="CGV"/></div>
+                                <div class="content-cm">
+                                    <h4>CGV</h4>
+                                    <div>CGV là một trong top 5 cụm rạp chiếu phim lớn nhất toàn cầu</div>
+                                    <div><i class="fa-solid fa-location-dot"></i>&ensp; 84 rạp</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cinema">
+                        <a href="#">
+                            <div class="flex">
+                                <div><img src="imanges/cinemas/lotte.png" alt="Lotte"/></div>
+                                <div class="content-cm">
+                                    <h4>Lotte Cinema</h4>
+                                    <div>Lotte Cinema là một chuỗi các rạp chiếu phim ở Hàn Quốc</div>
+                                    <div><i class="fa-solid fa-location-dot"></i>&ensp; Hơn 40 rạp</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cinema">
+                        <a href="#">
+                            <div class="flex">
+                                <div><img src="imanges/cinemas/cinestar.jpg" alt="Cinestar"/></div>
+                                <div class="content-cm">
+                                    <h4>Cinestar</h4>
+                                    <div>Cinestar có những thước phim điện ảnh chất lượng, dịch vụ tốt nhất với giá vé bình dân</div>
+                                    <div><i class="fa-solid fa-location-dot"></i>&ensp; 8 rạp</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="cinema">
+                        <a href="#">
+                            <div class="flex">
+                                <div><img src="imanges/cinemas/beta.png" alt="Beta Cinema"/></div>
+                                <div class="content-cm">
+                                    <h4>Beta Cinema</h4>
+                                    <div>Beta Cinemas là chuỗi rạp đầu tiên thực hiện chính sách nhượng quyền</div>
+                                    <div><i class="fa-solid fa-location-dot"></i>&ensp; 15 rạp</div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
     <aside></aside>
-    <footer></footer>
+    <footer>
+        <div class="flex">
+            <div class="imgFooter"><img src="imanges/logo.jpg" alt="LOGO"></div>
+
+            <div>
+                <table>
+                    <tr>
+                       <th colspan="2" style="color: #edf2f9;">Cinema Ticket Online Web</th>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-location-dot"></i></td>
+                        <td>&ensp; Địa chỉ: </td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-phone"></i></td>
+                        <td>&ensp; SĐT: 0123456789</td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-envelope"></i></td>
+                        <td><a href="mailto:tranan1522@gmail.com" class="link">&ensp; Email: tranan1522@gmail.com</a></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fa-solid fa-globe"></i></td>
+                        <td><a href="#" class="link">&ensp; Website: </a></td>
+                    </tr>
+                </table>
+            </div>
+
+            <div>
+                <ul class="list-ft">
+                    <li><h4>Truy cập nhanh</h4></li>
+                    <li><a href="#">Trang chủ</a></li>
+                    <li><a href="#">Đặt vé</a></li>
+                    <li><a href="#">Lịch chiếu</a></li>
+                    <li><a href="#">Phim</a></li>
+                    <li><a href="#">Rạp</a></li>
+                </ul>
+            </div>
+
+            <div class="footer"><img src="imanges/rapPhim.jpg" alt="cinema" id="cinema"></div>
+        </div>
+    </footer>
 </body>
 
 </html>
