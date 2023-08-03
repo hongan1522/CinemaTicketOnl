@@ -85,7 +85,6 @@ ul.menu li.sub:hover ul.submenu {
     background-color: transparent;
     border: 0;
 }
-
 /*Search*/
 ul > li.search  > a > input{
     border-radius: 0.4rem ;
@@ -100,90 +99,7 @@ ul > li.search  > a:hover > input{
     border-width: 2.5px;
 }
 
-/*movies*/
-section {
-    margin: 8px;
-}
-
-div.movies {
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
-    border: 1px solid #edf2f9;
-    border-radius: 0 0 10px 10px;
-    flex-wrap: wrap;
-}
-
-div.movie {
-    box-sizing: border-box;
-    width: 19.3%;
-    border: 1px solid white ;
-    border-radius: 10px;
-    height: 490px;
-    margin: 4px;
-    margin-top: 10px;
-    border-top: transparent;
-}
-
-div.movie img {
-    width: 100%;
-    border-radius: 10px 10px 0 0;
-    border-style: none;
-}
-
-div.movie a {
-    text-decoration: none;
-    color: white;
-}
-
-div.content-mv {
-    padding-left: 1rem;
-}
-
-/*subject*/
-.subject {
-    text-align: center;
-    background-image: linear-gradient(to top, #13547a 0%, #0c3483 100%);
-    color: whitesmoke;
-    margin-bottom: 0;
-    padding: 1rem;
-    border-bottom: none;
-    border-radius: 10px 10px 0 0;
-}
-
-/*btn-more*/
-div.movies > div.btn > a > button {
-    color: #f2f2f2;
-    font-weight: bold;
-    font-size: large;
-    padding: 18px 25px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    margin-left: 540px;
-    background-color: #2f4455;
-    border-radius: 20px;
-    border: 1px solid  #edf2f9;
-}
-
-div.btn  a {
-    text-decoration: none;
-    
-}
-
-i.fa-arrow-down-long {
-    animation: more 1s infinite;
-}
-
-@keyframes more {
-    0%, 100% {
-        transform: translateY(-30%);
-        animation-timing-function: cubic-bezier(.8,0,1,1);
-    }
-  
-    50% {
-        transform: none;
-        animation-timing-function: cubic-bezier(0,0,.2,1);
-    }
-}
-
+ /* nút go chưa đc  */
 /* go to top */
 #go {
     display: block;
@@ -243,13 +159,12 @@ ul.list-ft > li {
 }
 
 div.footer {
-    width: 40%;
-    
+    width: 30%;
 }
 
 div.footer img{
     width: 100%;
-    padding-bottom: auto;
+    height: 206px;
 }
 
 table {
@@ -267,41 +182,15 @@ a.link:hover {
     font-weight: bold;
 }
 
-/*cinema*/
-div.cinemas {
-    padding: 8px;
-    flex-wrap: wrap;
+/*left*/
+.left {
+    width: 40%;
 }
 
-div.cinema {
-    width: 48%;
-    justify-content: space-around;
-    border: 1px solid gainsboro;
-    border-radius: 5px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-    margin-right: 20px;
+.left img {
+    width: 40%;
+}
+
+.content > div {
     margin-top: 10px;
-    height: 141px;
 }
-
-div.cinema  img {
-    width: 45%;
-    border-radius: 10px 10px 0 0;
-    padding-left: 40px;
-    padding-top: 15px;
-}
-
-div.cinema a {
-    text-decoration: none;
-    color: #262626;
-}
-
-div.content-cm {
-    padding-right: 2rem;
-}
-
-
-
-
-

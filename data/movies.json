@@ -1,0 +1,51 @@
+[{
+    "id": 1,
+    "img": "imanges/movies/Fanti.jpeg",
+    "name": "Fanti",
+    "cate": "Chính Kịch"
+}, {
+    "id": 2,
+    "img": "imanges/movies/DTMA.jpg",
+    "name": "Dinh Thự Ma Ám",
+    "cate": "Kinh Dị"
+}, {
+    "id": 3,
+    "img": "imanges/movies/XSCNT.jpg",
+    "name": "Xứ sở các nguyên tố",
+    "cate": "Hoạt Hình"
+}, {
+    "id": 4,
+    "img": "imanges/movies/NVBKT.jpg",
+    "name": "Nhiệm Vụ Bất Khả Thi 7: Nghiệp Báo Phần 1",
+    "cate": "Phiêu Lưu"
+}, {
+    "id": 5,
+    "img": "imanges/movies/TTLDCN.jpg",
+    "name": "Thám Tử Lừng Danh Conan 26: Tàu Ngầm Sắt Màu Đen",
+    "cate": "Hoạt Hình"
+}, {
+    "id": 6,
+    "img": "imanges/movies/Fanti.jpeg",
+    "name": "Fanti",
+    "cate": "Chính Kịch"
+}, {
+    "id": 7,
+    "img": "imanges/movies/DTMA.jpg",
+    "name": "Dinh Thự Ma Ám",
+    "cate": "Kinh Dị"
+}, {
+    "id": 8,
+    "img": "imanges/movies/XSCNT.jpg",
+    "name": "Xứ sở các nguyên tố",
+    "cate": "Hoạt Hình"
+}, {
+    "id": 9,
+    "img": "imanges/movies/NVBKT.jpg",
+    "name": "Nhiệm Vụ Bất Khả Thi 7: Nghiệp Báo Phần 1",
+    "cate": "Phiêu Lưu"
+}, {
+    "id": 10,
+    "img": "imanges/movies/TTLDCN.jpg",
+    "name": "Thám Tử Lừng Danh Conan 26: Tàu Ngầm Sắt Màu Đen",
+    "cate": "Hoạt Hình"
+}]
