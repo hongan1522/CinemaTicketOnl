@@ -56,6 +56,19 @@ ul > li > a:hover i.fa-solid {
     color: #265078;
 }
 
+ul.left {
+    width: 50%;
+}
+
+ul.right {
+    width: 20%;
+    margin-left: 250px;
+}
+
+ul.right > li {
+    margin: 20px;
+}
+
 /*submenu*/
 ul.submenu { 
     display: none;
@@ -90,21 +103,6 @@ ul.menu li.sub:hover ul.submenu {
     border: 0;
 }
 
-/*Search*/
-ul > li.search  > a > input{
-    border-radius: 0.4rem ;
-    width: 200px;
-    height: 25px;
-    border-style: solid;
-    border-color: #4d6e9b;
-}
-
-ul > li.search  > a:hover > input{
-    border-color: #265078;
-    border-width: 2.5px;
-}
-
- /* nút go chưa đc  */
 /* go to top */
 #go {
     display: block;

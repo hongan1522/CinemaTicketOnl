@@ -52,6 +52,19 @@ ul > li > a:hover i.fa-solid {
     color: #265078;
 }
 
+ul.left {
+    width: 50%;
+}
+
+ul.right {
+    width: 20%;
+    margin-left: 250px;
+}
+
+ul.right > li {
+    margin: 20px;
+}
+
 /*submenu*/
 ul.submenu { 
     display: none;
@@ -85,21 +98,7 @@ ul.menu li.sub:hover ul.submenu {
     background-color: transparent;
     border: 0;
 }
-/*Search*/
-ul > li.search  > a > input{
-    border-radius: 0.4rem ;
-    width: 200px;
-    height: 25px;
-    border-style: solid;
-    border-color: #4d6e9b;
-}
 
-ul > li.search  > a:hover > input{
-    border-color: #265078;
-    border-width: 2.5px;
-}
-
- /* nút go chưa đc  */
 /* go to top */
 #go {
     display: block;
@@ -183,14 +182,40 @@ a.link:hover {
 }
 
 /*left*/
-.left {
-    width: 40%;
+div.top {
+    background-image: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url("../imanges/bg_movies/bg_XSCNT.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #d2d2d2;
+    justify-content: space-around;
 }
 
-.left img {
-    width: 40%;
+div.top > div:first-child {
+    width: 20%;
 }
 
-.content > div {
-    margin-top: 10px;
+div.top img {
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+div.contents {
+    width:50%;
+}
+
+div.contents div{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+div.top span, i, h2 {
+    font-weight: bold;
+    color: white;
+}
+
+div.actor > div{
+    margin-top: 5px;
+    padding: 5px;
 }
