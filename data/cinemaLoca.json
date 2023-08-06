@@ -1,0 +1,55 @@
+[{
+    "id": 1,
+    "alt": "CGV",
+    "name": "CGV Aeon Bình Tân",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Tầng 3, Trung tâm thương mại Aeon Mall Bình Tân, Số 1 đường số 17A, khu phố 11, phường Bình Trị Đông B, quận Bình Tân, TPHCM"
+}, {
+    "id": 2,
+    "alt": "CGV",
+    "name": "CGV Aeon Tân Phú",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Lầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ Quận Tân Phú, TPHCM"
+}, {
+    "id": 3,
+    "alt": "CGV",
+    "name": "CGV Crescent Mall",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Tầng 5 Crescent Mall, số 101 đường Tôn Dật Tiên, phường Tân Phú, quận 7, TPHCM"
+}, {
+    "id": 4,
+    "alt": "CGV",
+    "name": "CGV Giga Mall Thủ Đức",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Tầng 6 Gigamall, số 240-242 đường Phạm Văn Đồng, phường Hiệp Bình Chánh, quận Thủ Đức"
+}, {
+    "id": 5,
+    "alt": "CGV",
+    "name": "CGV Hoàng Văn Thụ",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Tầng 1 và 2, Gala Center, số 415, Hoàng Văn Thụ, Phường 2, Quận Tân Bình, TPHCM"
+}, {
+    "id": 6,
+    "alt": "CGV",
+    "name": "CGV Hùng Vương Plaza",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Tầng 7 Hùng Vương Plaza, 126 Hùng Vương, Quận 5, TPHCM"
+}, {
+    "id": 7,
+    "alt": "CGV",
+    "name": "CGV IMC Trần Quang Khải",
+    "img": "imanges/cinemas/CGV.jpg",
+    "location": "Tầng 2, 3 Trung Tâm Văn Hóa Đa Năng iMC, số 62 đường Trần Quang Khải, phường Tân Định, quận 1, TPHCM"
+}, {
+    "id": 8,
+    "alt": "Cinestar",
+    "name": "CineStar Hai Bà Trưng",
+    "img": "imanges/cinemas/cinestar.jpg",
+    "location": "135 Hai Bà Trưng, P. Bến Nghé, Quận 1, TPHCM"
+}, {
+    "id": 9,
+    "alt": "Cinestar",
+    "name": "CineStar Quốc Thanh",
+    "img": "imanges/cinemas/cinestar.jpg",
+    "location": "271 Nguyễn Trãi, P. Nguyễn Cư Trinh, Quận 1, TPHCM"
+}]
