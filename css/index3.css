@@ -1,3 +1,10 @@
+nav {
+    border: 2px solid #9e9d99;
+    border-radius: 5px;
+    background-color: white;
+    height: 85px;
+}
+
 /*Search*/
 div.search a {
     text-decoration: none;
@@ -34,11 +41,23 @@ div.search  > a:hover > input{
 } */
 
 /*cinema*/
-section.cinema > div {
+section.left > div {
     margin: 20px;
+    top: 0;
 }
 
-section.cinema > div:nth-child(2) > a > select{
+section.left {
+    width: 30%;
+    position: relative;
+    top: 0;
+}
+
+section.right {
+    width: 70%;
+    background-color: #265078;
+}
+
+section.cinemaLoca > div:nth-child(2) > a > select{
     height: 40px;
     width: 170px;
     border-radius: 2px;

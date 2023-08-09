@@ -12,6 +12,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
     <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
     <script src="js/default.js"></script>
+    <script src="js/index1.js"></script>
     <title>Đặt vé</title>
 </head>
 <body>
@@ -61,81 +62,107 @@
     </nav>
 
     <main>
-        <div>
-            <div class="top flex">
-                <div><img src="imanges/movies/XSCNT.jpg"/></div>
-                <div class="contents">
-                    <div><h2>Xứ sở các nguyên tố</h2></div>
-                    <div><span>Thể loại:</span>&ensp;Hoạt Hình</div>
-                    <div>Xứ sở các nguyên tố là siêu phẩm hoạt hình mới nhất của hãng Pixar từng được chọn chiếu bế mạc Liên hoan phim Cannes 2023 hồi tháng 5 vừa qua và nay ra mắt toàn cầu. Phim đề cập đến 2 nguyên tố tưởng chừng không thể dung hòa là nước và lửa lại có thể đến bên nhau.</div>
-                    <div class="flex between">
-                        <div>
-                            <i class="fa-regular fa-calendar"></i>
-                            <span>&ensp;Khởi chiếu</span>
-                            </br>&emsp;&ensp;23/06/2023
-                        </div>
-                        <div>
-                            <i class="fa-regular fa-clock"></i>
-                            <span>&ensp;Thời lượng </span>
-                            </br>&emsp;&ensp; 109 phút
-                        </div>
-                        <div>
-                            <i class="fa-solid fa-user-check"></i>
-                            <span>&ensp;Giới hạn tuổi</span>
-                            </br>&emsp;&ensp; Không
-                        </div>
+        <div class="top flex">
+            <div><img src="imanges/movies/XSCNT.jpg" alt="XSCNT"/></div>
+            <div class="contents">
+                <div><h2>Xứ sở các nguyên tố</h2></div>
+                <div><span>Thể loại:</span>&ensp;Hoạt Hình</div>
+                <div>Xứ sở các nguyên tố là siêu phẩm hoạt hình mới nhất của hãng Pixar từng được chọn chiếu bế mạc Liên hoan phim Cannes 2023 hồi tháng 5 vừa qua và nay ra mắt toàn cầu. Phim đề cập đến 2 nguyên tố tưởng chừng không thể dung hòa là nước và lửa lại có thể đến bên nhau.</div>
+                <div class="flex between">
+                    <div>
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>&ensp;Khởi chiếu</span>
+                        </br>&emsp;&ensp;23/06/2023
                     </div>
-                </div>
-                <div class="actor">
-                    <div><span>Diễn viên:</span>
-                        </br> Leah Lewis, Mamoudou Athie 
+                    <div>
+                        <i class="fa-regular fa-clock"></i>
+                        <span>&ensp;Thời lượng </span>
+                        </br>&emsp;&ensp; 109 phút
                     </div>
-                    <div><span>Đạo diễn:</span>
-                        </br>  Peter Sohn 
-                    </div>
-                    <div><span>Nhà sản xuất:</span>
-                        </br> Denise Ream 
+                    <div>
+                        <i class="fa-solid fa-user-check"></i>
+                        <span>&ensp;Giới hạn tuổi</span>
+                        </br>&emsp;&ensp; Không
                     </div>
                 </div>
             </div>
-
-            <section>
-                <div>
-                    <div><a href="#">
-                        <h4>Rạp</h4>
-                        <select name="cinema" id="cinema"> 
-                            <option value="CGV" selected>CGV</option>
-                            <option value="Lotte">Lotte Cinema</option>
-                            <option value="Cinestar">Cinestar</option>
-                            <option value="Beta">Beta Cinema</option>
-                        </select>
-                    </a></div>
-
-                    <div>
-                        <div style="margin-top: 10px;">
-                            <nav style="margin-left: 50px; padding-left: 10px; width: 68%;">
-                                <ul class="date flex">
-                                    <li><a href="#">Thứ 2</br><span>7/8/2023</span></a></li>
-                                    <li><a href="#">Thứ 3</br><span>8/8/2023</span></a></li>
-                                    <li><a href="#">Thứ 4</br><span>9/8/2023</span></a></li>
-                                    <li><a href="#">Thứ 5</br><span>10/8/2023</span></a></li>
-                                    <li><a href="#">Thứ 6</br><span>11/8/2023</span></a></li>
-                                    <li><a href="#">Thứ 7</br><span>12/8/2023</span></a></li>
-                                    <li><a href="#">Chủ Nhật</br><span>13/8/2023</span></a></li>
-                                </ul>
-                            </nav>
-                        </div>
-                    </div>
-
-                    <div>
-                        <div><h3>Xứ sở các nguyên tố</h3></div>
-                        <div>Rạp</div>
-                        <div>Số ghế</div>
-                        <div>Thành tiền VNĐ</div>
-                    </div>
+            <div class="actor">
+                <div><span>Diễn viên:</span>
+                    </br> Leah Lewis, Mamoudou Athie 
                 </div>
-            </section>
-        </div>
+                <div><span>Đạo diễn:</span>
+                    </br>  Peter Sohn 
+                </div>
+                <div><span>Nhà sản xuất:</span>
+                    </br> Denise Ream 
+                </div>
+            </div>
+        </div>    
+
+        <section>
+            <div class="ticket" style="margin-left: 10px;">
+                <div class="selectCM"><a href="#">
+                    <h4>Rạp</h4>
+                    <select name="cinema">
+                        <option value="CGV" selected>CGV</option>
+                        <option value="Lotte">Lotte Cinema</option>
+                        <option value="Cinestar">Cinestar</option>
+                        <option value="Beta">Beta Cinema</option>
+                    </select>
+                </a></div>
+
+                <div style="padding: 10px;">
+                    <nav style="height: auto;">
+                        <ul class="date flex between">
+                            <li><a href="#">Thứ 2</br><span>7/8</span></a></li>
+                            <li><a href="#">Thứ 3</br><span>8/8</span></a></li>
+                            <li><a href="#">Thứ 4</br><span>9/8</span></a></li>
+                            <li><a href="#">Thứ 5</br><span>10/8</span></a></li>
+                            <li><a href="#">Thứ 6</br><span>11/8</span></a></li>
+                            <li><a href="#">Thứ 7</br><span>12/8</span></a></li>
+                            <li><a href="#">Chủ Nhật</br><span>13/8</span></a></li>
+                        </ul>
+
+                        <ul class="cinema-ticket" id="cinema-ticket">
+                            <li><a href="#">
+                                <div class="flex" style="justify-content: space-around;">
+                                    <div><img src="imanges/cinemas/lotte.png" alt="Lottle Cinema"/></div>
+                                    <div class="name">
+                                        <div>Lottle Cinema</div>
+                                        <div><i class="fa-solid fa-location-dot"></i>&ensp;1 rạp</div>
+                                    </div>
+                                    <div><i class="fa-solid fa-angle-right"></i></div>
+                                </div>
+
+                                <ul class="submenu-cinema">
+                                    <li><a href="#">
+                                        <div>
+                                            <div>Lottle Gò Vấp</div>
+                                            <div><span>Địa chỉ</span></div>
+                                        </div>
+                                        <div>
+                                            <div><a href="#"><input type="button"></a></div>
+                                            <div><a href="#"><input type="button"></a></div>
+                                            <div><a href="#"><input type="button"></a></div>
+                                            <div><a href="#"><input type="button"></a></div>
+                                        </div>
+                                        
+
+                                    </a></li>
+                                </ul>
+                            </a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+            <div>
+                <div><h3>Xứ sở các nguyên tố</h3></div>
+                <div>Rạp</div>
+                <div>Số ghế</div>
+                <div>Thành tiền VNĐ</div>
+            </div>
+    </section>
         
 
         <input type="button" value="Đặt" style="margin-right: 10px; margin-left: 20px;">Hỏi xác nhận ?

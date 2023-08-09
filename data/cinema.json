@@ -1,0 +1,25 @@
+[{
+    "id": 1,
+    "name": "Lottle Cinema",
+    "alt": "Lottle",
+    "img": "imanges/cinemas/lotte.png",
+    "cinema": "Hơn 40 rạp"
+}, {
+    "id": 2,
+    "name": "CGV",
+    "alt": "CGV",
+    "img": "imanges/cinemas/cgv.png",
+    "cinema": "84 rạp"
+}, {
+    "id": 3,
+    "name": "Cinestar",
+    "alt": "Cinestar",
+    "img": "imanges/cinemas/cinestar.jpg",
+    "cinema": "8 rạp"
+}, {
+    "id": 4,
+    "name": "Beta Cinema",
+    "alt": "Beta",
+    "img": "imanges/cinemas/beta.png",
+    "cinema": "15 rạp"
+}]

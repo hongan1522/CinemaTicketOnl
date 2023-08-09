@@ -1,3 +1,12 @@
+nav {
+    background-color: white;
+    height: 85px;
+}
+
+body {
+    background-color: #f9fbfd;
+}
+
 /*top*/
 div.top {
     background-image: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.7) 100%), url("../imanges/bg_movies/bg_XSCNT.jpg");
@@ -43,22 +52,60 @@ ul.date{
     text-align: center;
     margin: 0;
     padding: 0;
+    border: 1px solid;
+    border-radius: 5px 5px 0 0;
 }
 
 ul.date > li > a {
     display: block;
-    padding: 1.5rem;
+    padding: 1rem;
     text-decoration: none;
     color: #262626;
     font-weight: bold;
-    border-right: 2px solid #9e9d99;
     text-align: center;
-}
-
-ul.date > li:last-child > a{
-    border-right: none;
 }
 
 ul.date span {
     font-weight: lighter;
+    font-size: 0.9rem;
 }
+
+/*ticket*/
+div.ticket {
+    width: 70%;
+}
+
+/*cinema-ticket*/
+ul.cinema-ticket {
+    margin-top: 0;
+    padding: 0;
+}
+
+ul.cinema-ticket > li {
+    list-style-type: none;
+    border: 1px solid;
+    border-top: none;
+}
+
+ul.cinema-ticket i {
+    color: #262626;
+}
+
+ul.cinema-ticket > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+ul.cinema-ticket img {
+    width: 78px;
+}
+
+div.name {
+    width: 40%;
+}
+
+div.name > div{
+    padding: 5px;
+}
+
+/* #9e9d99 hover */

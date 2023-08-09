@@ -61,50 +61,80 @@
         </ul>
     </nav>
 
-    <main>
-        <h1>Tìm kiếm theo rạp</h1>
-        <section class="cinema flex"> 
-            <div class="search">
-                <a href="#">
-                    <input type="search" onchange="search(this)" placeholder="Nhập từ khóa..." id="kw"/>
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                </a>
-            </div>
+    <h2>Tìm kiếm theo rạp</h2>
+    <main class="flex" style="align-items: normal">
+        
+            <section class="left"> 
+                <div class="search">
+                    <a href="#">
+                        <input type="search" onchange="search(this)" placeholder="Tìm rạp tại..." id="kw"/>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </a>
+                </div>
+    
+                <div>
+                    <div>Khu vực</div>
+                    <a href="#">
+                        <select name="location" id="location">
+                            <option value="all" selected>Tất cả</option>
+                            <option value="TPHCM">Thành phố Hồ Chí Minh</option>
+                            <option value="goVap">Gò Vấp</option>
+                            <option value="thuDuc">Thủ Đức</option>
+                        </select>
+                    </a>
+                </div>
 
-            <div>
-                <a href="#">
-                    <select name="location" id="location">
-                        <option value="TPHCM" selected>Thành phố Hồ Chí Minh</option>
-                        <option value="goVap">Gò Vấp</option>
-                        <option value="thuDuc">Thủ Đức</option>
-                    </select>
-                </a>
-            </div>
-        </section>
+                <div>
+                    <div>Hệ thống rạp</div>
+                    <a href="#">
+                        <select name="cinema" id="cinema">
+                            <option value="all" selected>Tất cả</option>
+                            <option value="cgv">CGV</option>
+                            <option value="cine">Cinestar</option>
+                            <option value="lottle">Lottle inema</option>
+                            <option value="beta">Beta inema</option>
+                        </select>
+                    </a>
+                </div>
+            </section>
 
-        <!-- chưa tìm đc. coi js lại -->
-        <section>
-            <div class="mvTheater" id="mvTheater">
-                <div class="theater">
-                    <div class="searchAni">
-                        <a href="#">
-                            <div class="flex">
-                                <div style="padding-left: 50px;"><img src="imanges/cinemas/CGV.jpg" alt="CGV"/></div>
-                                <div class="content">
-                                    <h4>CGV</h4>
-                                    <div>Tầng 3, Trung tâm thương mại Aeon Mall Bình Tân, Số 1 đường số 17A, khu phố 11, phường Bình Trị Đông B, quận Bình Tân, TPHCM</div>
+            <!-- chưa tìm đc. coi js lại -->
+            <section class="right">
+
+                <div class="mvTheater" id="mvTheater">
+                    <div class="theater">
+                        <div class="searchAni">
+                            <a href="#">
+                                <div class="flex">
+                                    <div style="padding-left: 50px;"><img src="imanges/cinemas/cgv.png" alt="CGV"/></div>
+                                    <div class="content">
+                                        <h4>CGV</h4>
+                                        <div>Tầng 3, Trung tâm thương mại Aeon Mall Bình Tân, Số 1 đường số 17A, khu phố 11, phường Bình Trị Đông B, quận Bình Tân, TPHCM</div>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        
 
-        <section>
-            Phim đamg chiếu trong rạp html khác
-            <img src="" alt="">
-        </section>
+        <!-- <section>
+            <h1 class="subject">Phim đang chiếu</h1>
+            <div class="movies flex">
+                <div class="movie">
+                    <a href="#">
+                        <div>
+                            <div><img src="imanges/movies/Fanti.jpeg" alt="Film"/></div>
+                            <div class="content-mv">
+                                <h4>Fanti</h4>
+                                <div>Chính Kịch</div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section> -->
     </main>
 
     <aside>

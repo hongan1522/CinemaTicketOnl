@@ -1,3 +1,10 @@
+nav {
+    border: 2px solid #9e9d99;
+    border-radius: 5px;
+    background-color: white;
+    height: 85px;
+}
+
 /*select*/
 div.select {
     width: 20%;

@@ -1,3 +1,10 @@
+nav {
+    border: 2px solid #9e9d99;
+    border-radius: 5px;
+    background-color: white;
+    height: 85px;
+}
+
 /*movies*/
 section {
     margin: 8px;
@@ -113,6 +120,26 @@ div.cinema a {
 
 div.content-cm {
     padding-right: 2rem;
+}
+
+/*slider*/
+.slider {
+    z-index: 89;
+}
+
+/* div.slider-content {
+    position: relative;
+}
+
+div.slider-content > div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+} */
+
+main > section:first-child {
+    margin-top: 600px;
 }
 
 

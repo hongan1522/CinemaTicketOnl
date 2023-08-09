@@ -3,13 +3,6 @@ body {
     margin: 0;
 }
 
-nav {
-    border: 2px solid #9e9d99;
-    border-radius: 5px;
-    background-color: white;
-    height: 85px;
-}
-
 .flex {
     display: flex;
     align-items: center;
@@ -170,7 +163,6 @@ div.footer img{
 
 table {
     border-spacing: 10px;
-    width: 370px;
 }
 
 a.link {
@@ -202,6 +194,7 @@ ul.imgF > li:last-child {
 ul.imgF {
     margin: 0;
     margin-left: 50px;
+    height: 60px;
 }
 
 ul.imgF > li>  a:hover > img {
