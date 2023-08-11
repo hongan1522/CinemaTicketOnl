@@ -71,8 +71,18 @@ ul.date span {
 }
 
 /*ticket*/
-div.ticket {
+section.right {
+    width: 30%;
+    /* top: 0;
+    right: 0; */
+}
+
+section.left {
     width: 70%;
+}
+
+div.ticket {
+    width: 90%;
 }
 
 /*cinema-ticket*/
@@ -107,5 +117,35 @@ div.name {
 div.name > div{
     padding: 5px;
 }
+
+ul.submenu-cinema {
+    padding: 0;
+}
+
+ul.submenu-cinema > li {
+    list-style-type: none;
+    padding: 6px;
+    background-color: #d2d2d2;
+    border-top: 1px solid #262626;
+    padding-left: 20px;
+}
+
+ul.submenu-cinema > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+/*selectCM*/
+div.selectCM > a {
+    text-decoration: none;
+    color: black;
+}
+
+div.selectCM {
+    padding-left: 15px;
+}
+
+/**/
+
 
 /* #9e9d99 hover */

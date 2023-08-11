@@ -36,12 +36,12 @@ ul.menu > li > a:hover {
     font-weight: bolder;
 }
 
-ul > li > a > i.fa-solid {
+ul.menu > li > a > i.fa-solid {
     color: #4d6e9b;
     padding: 0.5rem;
 }
 
-ul > li > a:hover i.fa-solid {
+ul.menu > li > a:hover i.fa-solid {
     color: #265078;
 }
 
