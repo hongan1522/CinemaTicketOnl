@@ -25,27 +25,52 @@
     "cate": "Hoạt Hình"
 }, {
     "id": 6,
-    "img": "imanges/movies/Fanti.jpeg",
-    "name": "Fanti",
-    "cate": "Chính Kịch"
-}, {
-    "id": 7,
-    "img": "imanges/movies/DTMA.jpg",
-    "name": "Dinh Thự Ma Ám",
-    "cate": "Kinh Dị"
-}, {
-    "id": 8,
-    "img": "imanges/movies/XSCNT.jpg",
-    "name": "Xứ sở các nguyên tố",
+    "img": "imanges/movies/doremon.jpg",
+    "name": "Doraemon: Nobita và Vùng Đất Lý Tưởng Trên Bầu Trời",
     "cate": "Hoạt Hình"
 }, {
+    "id": 7,
+    "img": "imanges/movies/spider.jpg",
+    "name": "Người Nhện: Du Hành Vũ Trụ Nhện ",
+    "cate": "Khoa Học Viễn Tưởng"
+}, {
+    "id": 8,
+    "img": "imanges/movies/NBN.jpg",
+    "name": "Nhà Bà Nữ",
+    "cate": "Chính Kịch"
+}, {
     "id": 9,
-    "img": "imanges/movies/NVBKT.jpg",
-    "name": "Nhiệm Vụ Bất Khả Thi 7: Nghiệp Báo Phần 1",
+    "img": "imanges/movies/avatar.jpg",
+    "name": "Avatar: Dòng Chảy Của Nước",
     "cate": "Phiêu Lưu"
 }, {
     "id": 10,
-    "img": "imanges/movies/TTLDCN.jpg",
-    "name": "Thám Tử Lừng Danh Conan 26: Tàu Ngầm Sắt Màu Đen",
+    "img": "imanges/movies/PTTT.jpg",
+    "name": "Phù Thủy Tối Thượng Trong Đa Vũ Trụ Hỗn Loạn",
+    "cate": "Phiêu Lưu"
+}, {
+    "id": 11,
+    "img": "imanges/movies/QTTD.jpg",
+    "name": "Transformers: Quái Thú Trỗi Dậy",
+    "cate": "Khoa Học Viễn Tưởng"
+}, {
+    "id": 12,
+    "img": "imanges/movies/TCC.jpg",
+    "name": "Tà Chú Cấm",
+    "cate": "Kinh Dị"
+}, {
+    "id": 13,
+    "img": "imanges/movies/BDTS.jpg",
+    "name": "Bỗng Dưng Trúng Số",
+    "cate": "Hài"
+}, {
+    "id": 14,
+    "img": "imanges/movies/minion.jpg",
+    "name": "Minions: Sự Trỗi Dậy Của Gru",
     "cate": "Hoạt Hình"
+}, {
+    "id": 15,
+    "img": "imanges/movies/E&T.jpg",
+    "name": "Em Và Trịnh",
+    "cate": "Lãng Mạn"
 }]

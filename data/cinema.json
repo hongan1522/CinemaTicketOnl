@@ -1,11 +1,13 @@
 [{
     "id": 1,
+    "date_id": ["1", "3", "4"],
     "name": "Lottle Cinema",
     "alt": "Lottle",
     "img": "imanges/cinemas/lotte.png",
     "cinema": "Hơn 40 rạp"
 }, {
     "id": 2,
+    "date_id": ["2", "3", "7"],
     "name": "CGV",
     "alt": "CGV",
     "img": "imanges/cinemas/cgv.png",
@@ -13,13 +15,36 @@
 }, {
     "id": 3,
     "name": "Cinestar",
+    "date_id": ["1", "4", "6"],
     "alt": "Cinestar",
     "img": "imanges/cinemas/cinestar.jpg",
     "cinema": "8 rạp"
 }, {
     "id": 4,
+    "date_id": ["5", "3", "7"],
     "name": "Beta Cinema",
     "alt": "Beta",
     "img": "imanges/cinemas/beta.png",
     "cinema": "15 rạp"
+}, {
+    "id": 5,
+    "date_id": ["1", "5", "7"],
+    "name": "Mega GS Cinema",
+    "alt": "Mega",
+    "img": "imanges/cinemas/mega.jpg",
+    "cinema": "2 rạp"
+}, {
+    "id": 6,
+    "date_id": ["2", "3", "4"],
+    "name": "BHD Star",
+    "alt": "BHD",
+    "img": "imanges/cinemas/bhd.jpg",
+    "cinema": "10 rạp"
+}, {
+    "id": 7,
+    "date_id": ["4", "5", "6"],
+    "name": "Galaxy Cinema",
+    "alt": "Galaxy",
+    "img": "imanges/cinemas/galaxy.png",
+    "cinema": "14 rạp"
 }]

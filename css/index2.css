@@ -6,16 +6,12 @@ nav {
 }
 
 /*select*/
-div.select {
-    width: 20%;
-}
-
 div.select > ul {
-    margin: 5px;
+    margin: 20px;
 }
 
 ul.cates {
-    padding: 2px 5px;
+    padding: 3px 5px;
     margin: 0;
 }
 
@@ -32,10 +28,9 @@ ul.cates li {
 ul.cates > li:first-child {
     border: 1px solid;
     border-radius: 5px;
-    width: 50%;
     text-align: center;
-    height: 22px;
     padding-top: 4px;
+    width: 110px;
 }
 
 ul.cates > li:nth-child(2) {
@@ -73,7 +68,6 @@ ul.cate > li > a {
 /*movies*/
 div.movies  {
     flex-wrap: wrap;
-    width: 80%;
 }
 
 div.movie {
@@ -81,14 +75,20 @@ div.movie {
     box-sizing: border-box;
     border: 1px solid;
     border-radius: 10px;
-    height: 400px;
+    height: 460px;
     margin: 9px;
+}
+
+div.movie > a {
+    text-decoration: none;
+    color: #010101;
 }
 
 div.movie img {
     width: 100%;
     border-radius: 10px 10px 0 0;
     border-style: none;
+    height: 60%;
 }
 
 div.content-mv {

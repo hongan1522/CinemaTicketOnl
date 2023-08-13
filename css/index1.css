@@ -65,6 +65,11 @@ ul.date > li > a {
     text-align: center;
 }
 
+ul.date > li > a:hover {
+    color: white;
+    background-color: slategrey;
+}
+
 ul.date span {
     font-weight: lighter;
     font-size: 0.9rem;
@@ -73,12 +78,18 @@ ul.date span {
 /*ticket*/
 section.right {
     width: 30%;
-    /* top: 0;
-    right: 0; */
+    position: relative;
+    top: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
 
 section.left {
     width: 70%;
+    position: relative;
+    top: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
 }
 
 div.ticket {
@@ -108,6 +119,8 @@ ul.cinema-ticket > li > a {
 
 ul.cinema-ticket img {
     width: 78px;
+    border-radius: 10px;
+    margin-top: 3px;
 }
 
 div.name {
@@ -145,7 +158,46 @@ div.selectCM {
     padding-left: 15px;
 }
 
-/**/
+/*right*/
+div.review {
+    border: 1px solid #edf2f9;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+div.review hr {
+    width: 90%;
+}
+
+div.right-name {
+    text-align: center;
+    font-size: large;
+    background-color: #d2d2d2;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+}
+
+div.content-review {
+    padding: 5px;
+    padding-left: 15px;
+}
+
+div.content-review > a {
+    text-decoration: none;
+}
+
+div.content-review > a > div:first-child {
+    text-transform: capitalize;
+    padding-bottom: 5px;
+    color: black;
+}
+
+div.content-review > a > div:last-child {
+    font-size: 0.9rem;
+    color: firebrick;
+}
+
 
 
 /* #9e9d99 hover */

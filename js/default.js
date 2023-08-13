@@ -25,6 +25,25 @@ $(document).ready(() => {
     });
 });
 
+function loadSubmenu() {
+    fetch("data/cinema.json").then(res => res.json()).then(data => {
+        let h ="";
+        for (let c of data) {
+            h += `
+            <li><a href="#">${c.name}</a></li>
+            `
+        }
+
+        let e = document.getElementById("submenu_menu")
+        if (e !== null)
+            e.innerHTML = h;
+    });
+}
+
+window.onload = () => {
+    loadSubmenu();
+};
+
 
 
 

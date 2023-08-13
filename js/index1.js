@@ -76,6 +76,13 @@ function loadTime() {
                     document.getElementById("showSub"+c.id).addEventListener("click", function showCinema()  {
                         document.getElementById("cinema-submenu"+c.id).style.display='block';
                         });
+                    
+                    // let hide = "";
+
+                    // if(document.getElementById("cinema-submenu"+c.id).style.display='block')
+                    //     document.getElementById("showSub"+c.id).addEventListener("click", function showCinema()  {
+                    //         document.getElementById("cinema-submenu"+c.id).style.display='none';
+                    //     });
                     }
 
                 }
@@ -100,10 +107,33 @@ function loadDate() {
     })
 }
 
+function loadReview() {
+    fetch("data/review.json").then(res => res.json()).then(data => {
+        let h = "";
+        h = `<div class="right-name">Review</div>`
+        for (let r of data) {
+            h += `
+            <div class="content-review">
+            <a href="#">
+                <div>Review ${r.name}</div>
+                <div>Đánh giá phim từ: ${r.person}</div>
+            </a></div>
+            <hr/>
+            `
+        }
+
+        let e = document.getElementById("review");
+            if (e !== null)
+                e.innerHTML = h;
+
+    })
+};
+
 window.onload = () => {
     loadRap();
     loadSubMenuRap();
     loadTime();
     loadDate();
+    loadReview();
 };
 

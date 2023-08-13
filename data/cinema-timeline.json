@@ -5,22 +5,22 @@
     "loca": "Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM",
     "time": ["7:00", "10:30", "14:00"]
 }, {
-    "id": 4,
+    "id": 2,
     "cinema_id": 1,
     "name": "Lottle Thủ Đức",
-    "loca": "Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM",
-    "time": ["7:00", "10:30", "14:00"]
-},
-{
-    "id": 2,
-    "cinema_id": 2,
-    "name": "Lottle Beta",
-    "loca": "Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM",
-    "time": ["7:00", "10:30", "14:00"]
+    "loca": "Tầng 2 Joy Citipoint, KCX Linh Trung, KP4, P. Linh Trung, Quận Thủ Đức",
+    "time": ["8:00", "11:00", "14:30", "16:00"]
 },
 {
     "id": 3,
-    "cinema_id": 3,
+    "cinema_id": 1,
+    "name": "Lottle Nam Sài Gòn",
+    "loca": "Tầng 3, TTTM Lotte, số 469 đường Nguyễn Hữu Thọ, P.Tân Hưng, Quận 7",
+    "time": ["7:00", "9:30", "15:00"]
+},
+{
+    "id": 4,
+    "cinema_id": 2,
     "name": "CGV",
     "loca": "Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM",
     "time": ["7:00", "10:30", "14:00"]

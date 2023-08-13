@@ -1,6 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    background-color: #f7f9fb;
 }
 
 .flex {
@@ -45,8 +46,12 @@ ul.menu > li > a:hover i.fa-solid {
     color: #265078;
 }
 
+ul.bet img {
+    width: 40%;
+}
+
 ul.left {
-    width: 50%;
+    width: 80%;
 }
 
 ul.right {
