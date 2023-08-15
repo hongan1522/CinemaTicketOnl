@@ -21,6 +21,8 @@ function loadMov() {
 }
 
 window.onload = () => {
+    loadSubmenu();
     loadMov();
+    
 }
    

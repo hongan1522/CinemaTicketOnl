@@ -33,16 +33,11 @@ function loadSubmenu() {
             <li><a href="#">${c.name}</a></li>
             `
         }
-
         let e = document.getElementById("submenu_menu")
         if (e !== null)
             e.innerHTML = h;
     });
 }
-
-window.onload = () => {
-    loadSubmenu();
-};
 
 
 

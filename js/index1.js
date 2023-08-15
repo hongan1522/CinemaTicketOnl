@@ -130,6 +130,7 @@ function loadReview() {
 };
 
 window.onload = () => {
+    loadSubmenu();
     loadRap();
     loadSubMenuRap();
     loadTime();

@@ -48,6 +48,7 @@ ul.menu > li > a:hover i.fa-solid {
 
 ul.bet img {
     width: 40%;
+    border-radius: 40px;
 }
 
 ul.left {

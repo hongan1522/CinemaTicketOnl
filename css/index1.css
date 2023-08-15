@@ -1,5 +1,7 @@
 nav {
-    background-color: white;
+    border: 2px solid #9e9d99;
+    border-radius: 5px;
+    background-color: #fefefe;
     height: 85px;
 }
 

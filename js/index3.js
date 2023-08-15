@@ -39,5 +39,6 @@ function search(obj) {
 };
 
 window.onload = () => {
+    loadSubmenu();
     loadLoca();
 }

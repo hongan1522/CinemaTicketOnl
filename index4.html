@@ -3,8 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="refesh" content="1800">
+    <meta name="keywords" content="vé xem phim online, đặt vé phim trực tuyến, mua vé xem phim, vé xem phim trực tuyến"/>
+    <meta name="description" content="Đặt vé xem phim trực tuyến"/>
+    <title>Đặt vé</title>
+    <link rel="shotcut icon" href="images/iconTicket.png"/>
+    <link rel="stylesheet" href="css/index4.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
     <link href="css/default.css" rel="stylesheet"/>
+    <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+    <script src="js/default.js"></script>
+    <script src="js/index4.js"></script>
 </head>
 <body>
     <a href="javascript:;" id="go">
@@ -30,7 +39,7 @@
                     <i class="fa-solid fa-angle-down fa-xs"></i>
                 </a>
 
-                <ul class="submenu menu">
+                <ul class="submenu menu" id="submenu_menu">
                     <li><a href="#">CGV</a></li>
                     <li><a href="#">Lotte Cinema</a></li>
                 </ul>
@@ -38,10 +47,10 @@
             </li>
         </ul>
 
-        <ul class="menu">
+        <ul class="bet menu">
             <li>
                 <a href="#">
-                    <i class="fa-solid fa-house-chimney"></i></a></li>
+                    <img src="images/logo.jpg" alt="Logo"></a></li>
         </ul>
 
         <ul class="right menu flex">
@@ -50,9 +59,51 @@
         </ul>
     </nav>
 
+    <main>
+        <h2>Thông tin đặt vé</h2>
+        <form id="bookingForm">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="seats">Số lượng vé:</label>
+            <input type="number" id="seats" name="seats" min="1" required>
+
+            <button type="submit">Đặt vé</button>
+        </form>
+
+            <h1>Chọn ghế và đặt vé</h1>
+            <div class="flex" id="seats">
+                <div class="flex seats">
+                    <div class="seat normal"></div>
+                    <div>&ensp;Thường</div>
+                </div>
+                <div class="flex seats">
+                    <div class="seat vip"></div>
+                    <div>&ensp;VIP</div>
+                </div>
+                <div class="flex seats">
+                    <div class="seat couple"></div>
+                    <div>&ensp;Đôi</div>
+                </div>
+                
+            </div>
+        
+
+        <h2>Chọn ghế</h2>
+        <div id="seatMap" class="flex">
+            <!-- Thêm các ghế vào đây, ví dụ: -->
+            <div class="seat normal" data-price="100"><a href="#"></a>A1</div>
+            <div class="seat vip" data-price="150">B2</div>
+            <div class="seat couple" data-price="200" style="width: 60px;">C3</div>
+        </div>
+    </main>
+
     <footer>
         <div class="flex">
-            <div class="imgFooter"><img src="imanges/logo.jpg" alt="LOGO"></div>
+            <div class="imgFooter"><img src="images/logo.jpg" alt="LOGO"></div>
 
             <div>
                 <table>
@@ -78,9 +129,9 @@
                 </table>
 
                 <ul class="imgF flex">
-                    <li><a href="#"><img src="imanges/footer/fb.webp" alt="Facebook"/></a></li>
-                    <li><a href="#"><img src="imanges/footer/ins.png" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="imanges/footer/yt.jpg" alt="Youtube"></a></li>
+                    <li><a href="#"><img src="images/footer/fb.webp" alt="Facebook"/></a></li>
+                    <li><a href="#"><img src="images/footer/ins.png" alt="Instagram"></a></li>
+                    <li><a href="#"><img src="images/footer/yt.jpg" alt="Youtube"></a></li>
                 </ul>
 
                 <div>&emsp;&copy; Copyright Tran Nguyen Hong An 2023</div>
@@ -97,7 +148,7 @@
                 </ul>
             </div>
 
-            <div class="footer"><img src="imanges/rapPhim.jpg" alt="cinema" id="cinema"></div>
+            <div class="footer"><img src="images/rapPhim.jpg" alt="cinema" id="cinema"></div>
         </div>
     </footer>
 </body>

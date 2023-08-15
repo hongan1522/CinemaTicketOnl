@@ -1,76 +1,76 @@
 [{
     "id": 1,
-    "img": "imanges/movies/Fanti.jpeg",
+    "img": "images/movies/Fanti.jpeg",
     "name": "Fanti",
     "cate": "Chính Kịch"
 }, {
     "id": 2,
-    "img": "imanges/movies/DTMA.jpg",
+    "img": "images/movies/DTMA.jpg",
     "name": "Dinh Thự Ma Ám",
     "cate": "Kinh Dị"
 }, {
     "id": 3,
-    "img": "imanges/movies/XSCNT.jpg",
+    "img": "images/movies/XSCNT.jpg",
     "name": "Xứ sở các nguyên tố",
     "cate": "Hoạt Hình"
 }, {
     "id": 4,
-    "img": "imanges/movies/NVBKT.jpg",
+    "img": "images/movies/NVBKT.jpg",
     "name": "Nhiệm Vụ Bất Khả Thi 7: Nghiệp Báo Phần 1",
     "cate": "Phiêu Lưu"
 }, {
     "id": 5,
-    "img": "imanges/movies/TTLDCN.jpg",
+    "img": "images/movies/TTLDCN.jpg",
     "name": "Thám Tử Lừng Danh Conan 26: Tàu Ngầm Sắt Màu Đen",
     "cate": "Hoạt Hình"
 }, {
     "id": 6,
-    "img": "imanges/movies/doremon.jpg",
+    "img": "images/movies/doremon.jpg",
     "name": "Doraemon: Nobita và Vùng Đất Lý Tưởng Trên Bầu Trời",
     "cate": "Hoạt Hình"
 }, {
     "id": 7,
-    "img": "imanges/movies/spider.jpg",
+    "img": "images/movies/spider.jpg",
     "name": "Người Nhện: Du Hành Vũ Trụ Nhện ",
     "cate": "Khoa Học Viễn Tưởng"
 }, {
     "id": 8,
-    "img": "imanges/movies/NBN.jpg",
+    "img": "images/movies/NBN.jpg",
     "name": "Nhà Bà Nữ",
     "cate": "Chính Kịch"
 }, {
     "id": 9,
-    "img": "imanges/movies/avatar.jpg",
+    "img": "images/movies/avatar.jpg",
     "name": "Avatar: Dòng Chảy Của Nước",
     "cate": "Phiêu Lưu"
 }, {
     "id": 10,
-    "img": "imanges/movies/PTTT.jpg",
+    "img": "images/movies/PTTT.jpg",
     "name": "Phù Thủy Tối Thượng Trong Đa Vũ Trụ Hỗn Loạn",
     "cate": "Phiêu Lưu"
 }, {
     "id": 11,
-    "img": "imanges/movies/QTTD.jpg",
+    "img": "images/movies/QTTD.jpg",
     "name": "Transformers: Quái Thú Trỗi Dậy",
     "cate": "Khoa Học Viễn Tưởng"
 }, {
     "id": 12,
-    "img": "imanges/movies/TCC.jpg",
+    "img": "images/movies/TCC.jpg",
     "name": "Tà Chú Cấm",
     "cate": "Kinh Dị"
 }, {
     "id": 13,
-    "img": "imanges/movies/BDTS.jpg",
+    "img": "images/movies/BDTS.jpg",
     "name": "Bỗng Dưng Trúng Số",
     "cate": "Hài"
 }, {
     "id": 14,
-    "img": "imanges/movies/minion.jpg",
+    "img": "images/movies/minion.jpg",
     "name": "Minions: Sự Trỗi Dậy Của Gru",
     "cate": "Hoạt Hình"
 }, {
     "id": 15,
-    "img": "imanges/movies/E&T.jpg",
+    "img": "images/movies/E&T.jpg",
     "name": "Em Và Trịnh",
     "cate": "Lãng Mạn"
 }]
