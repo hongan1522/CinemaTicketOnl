@@ -9,6 +9,7 @@ nav {
 div.seats {
     margin-right: 20px;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 div.seat {
@@ -19,13 +20,13 @@ div.seat {
 }
 
 div.normal {
-    background-color: darkseagreen;
+    background-color: seagreen;
 }
 
 div.vip {
-    background-color: #ffcc00;
+    background-color: gold;
 }
 
 div.couple {
-    background-color: cornflowerblue;
+    background-color: steelblue;
 }

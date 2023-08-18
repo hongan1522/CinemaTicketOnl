@@ -1,0 +1,36 @@
+[{
+    "id": 1,
+    "img": "images/news/new1_dracula.jpg",
+    "name": "Dracula Quỷ Dữ Thức Tỉnh - Lịch chiếu, mua vé và review phim",
+    "person": "NguyenVanA",
+    "time": "1 giờ trước",
+    "content": "Dracula Quỷ Dữ Thức Tỉnh sẽ mang đến một trải nghiệm kinh dị đẫm máu cho những fan dũng cảm."
+}, {
+    "id": 2,
+    "img": "images/news/new2_bdbt.jpg",
+    "name": "Thái tử Kingdom Ju Ji Hoon trở lại với Bộ Đôi Báo Thủ",
+    "person": "ABC",
+    "time": "2 giờ trước",
+    "content": "Phim mới của Ha Jung Woo và Ju Ji Hoon nhận mưa lời khen từ truyền thông Hàn chuẩn bị đổ bộ rạp Việt."
+}, {
+    "id": 3,
+    "img": "images/news/new3_kad.jpg",
+    "name": "Kẻ Ẩn Danh – Điện ảnh Việt trở lại với một tác phẩm hành động gai góc, bụi bặm",
+    "person": "TranThiB",
+    "time": "3 giờ trước",
+    "content": "Không diễn phim hài nữa, Kiều Minh Tuấn hóa “đả nam” phong trần trong bộ phim võ thuật, hành động Kẻ Ẩn Danh.."
+}, {
+    "id": 4,
+    "img": "images/news/new4_ghqd.jpg",
+    "name": "Gọi Hồn Quỷ Dữ (Talk to Me) - A24 đã giải cứu thể loại kinh dị như thế nào?",
+    "person": "milk123",
+    "time": "4 giờ trước",
+    "content": "Gọi Hồn Quỷ Dữ (Talk to Me) là bộ phim mới nhất đang chiếu tại rạp."
+}, {
+    "id": 5,
+    "img": "images/news/new2_bdbt.jpg",
+    "name": "Shin Cậu Bé Bút Chì Movie 31: Đại Chiến Siêu Năng Lực - Lịch chiếu, mua vé và review phim",
+    "person": "Mina_Tran",
+    "time": "5 giờ trước",
+    "content": "Shin Cậu Bé Bút Chì Movie 31: Đại Chiến Siêu Năng Lực mang Shin-chan đến với khán giả trong một phong cách mới."
+}]

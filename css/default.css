@@ -23,23 +23,21 @@ ul.menu {
 
 ul.menu > li > a {
     display: block;
-    padding: 1.5rem;
     text-decoration: none;
     color: #4d6e9b;
     font-weight: bold;
-    
+    width: 113px;
+    padding: 10px 0 10px 5px;
 }
 
 /*hover*/
 ul.menu > li > a:hover {
     color: #265078;
-    font-size: larger;
-    font-weight: bolder;
+    font-size: large;
 }
 
 ul.menu > li > a > i.fa-solid {
     color: #4d6e9b;
-    padding: 0.5rem;
 }
 
 ul.menu > li > a:hover i.fa-solid {
@@ -47,21 +45,26 @@ ul.menu > li > a:hover i.fa-solid {
 }
 
 ul.bet img {
-    width: 40%;
+    width: 70%;
     border-radius: 40px;
 }
 
+ul.bet > li > a:hover img {
+    transform: scale(1.2);
+    transition-duration: .5s;
+}
+
 ul.left {
-    width: 80%;
+    width: 60%;
 }
 
 ul.right {
     width: 20%;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
-ul.right > li {
-    margin: 20px;
+.dark-mode {
+    background-color: #d2d2d2;
 }
 
 /*submenu*/
@@ -70,7 +73,7 @@ ul.submenu {
     position: absolute;
     background-color: #f3f1f4 !important;
     width: 200px;
-    border-radius: 2rem;
+    border-radius: 10px;
     text-align: left;
     z-index: 2;
 }

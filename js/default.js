@@ -23,6 +23,12 @@ $(document).ready(() => {
             $("#menu").css("position", "static");
         } 
     });
+
+    let light = document.querySelector(".fa-lightbulb");
+    
+    light.addEventListener("click", function() {
+        document.body.classList.toggle("dark-mode");
+    });
 });
 
 function loadSubmenu() {

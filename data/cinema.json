@@ -4,47 +4,54 @@
     "name": "Lottle Cinema",
     "alt": "Lottle",
     "img": "images/cinemas/lotte.png",
-    "cinema": "Hơn 40 rạp"
+    "cinema": "Hơn 40 rạp",
+    "content": "Lotte Cinema là một chuỗi các rạp chiếu phim ở Hàn Quốc"
 }, {
     "id": 2,
     "date_id": ["2", "3", "7"],
     "name": "CGV",
     "alt": "CGV",
     "img": "images/cinemas/cgv.png",
-    "cinema": "84 rạp"
+    "cinema": "84 rạp",
+    "content": "CGV là một trong top 5 cụm rạp chiếu phim lớn nhất toàn cầu"
 }, {
     "id": 3,
     "name": "Cinestar",
     "date_id": ["1", "4", "6"],
     "alt": "Cinestar",
     "img": "images/cinemas/cinestar.jpg",
-    "cinema": "8 rạp"
+    "cinema": "8 rạp",
+    "content": "Cinestar có những thước phim điện ảnh chất lượng, dịch vụ tốt nhất với giá vé bình dân"
 }, {
     "id": 4,
     "date_id": ["5", "3", "7"],
     "name": "Beta Cinema",
     "alt": "Beta",
     "img": "images/cinemas/beta.png",
-    "cinema": "15 rạp"
+    "cinema": "15 rạp",
+    "content": "Beta Cinemas là chuỗi rạp đầu tiên thực hiện chính sách nhượng quyền"
 }, {
     "id": 5,
     "date_id": ["1", "5", "7"],
     "name": "Mega GS Cinema",
     "alt": "Mega",
     "img": "images/cinemas/mega.jpg",
-    "cinema": "2 rạp"
+    "cinema": "2 rạp",
+    "content": "Mega GS Cinema là rạp chiếu phim tiêu chuẩn quốc tế tại Việt Nam"
 }, {
     "id": 6,
     "date_id": ["2", "3", "4"],
     "name": "BHD Star",
     "alt": "BHD",
     "img": "images/cinemas/bhd.jpg",
-    "cinema": "10 rạp"
+    "cinema": "10 rạp",
+    "content": "BHD Star là hệ thống rạp chiếu phim hiện đại"
 }, {
     "id": 7,
     "date_id": ["4", "5", "6"],
     "name": "Galaxy Cinema",
     "alt": "Galaxy",
     "img": "images/cinemas/galaxy.png",
-    "cinema": "14 rạp"
+    "cinema": "14 rạp",
+    "content": "Galaxy Cinema cập nhập các bộ phim bom tấn thường xuyên đến bạn"
 }]

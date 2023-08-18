@@ -24,40 +24,38 @@
 
     <nav class="flex between" id="menu">
         <ul class="left menu flex">
-            <li><a href="#">Đặt vé</a></li>
-            <li><a href="#">Lịch chiếu</a></li>
+            <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index4">Đặt vé</a></li>
+            <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index1">Lịch chiếu</a></li>
             <li class="sub">
-                <a href="#">Phim 
+                <a href="https://hongan1522.github.io/CinemaTicketOnl/index2">Phim 
                     <i class="fa-solid fa-angle-down fa-xs"></i>
                 </a>
 
                 <ul class="submenu menu">
-                    <li><a href="#">Phim đang chiếu</a></li>
+                    <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index2">Phim đang chiếu</a></li>
                     <li><a href="#">Phim sắp chiếu</a></li>
                 </ul>
             </li>
             <li class="sub">
-                <a href="#">Rạp
+                <a href="https://hongan1522.github.io/CinemaTicketOnl/index3">Rạp
                     <i class="fa-solid fa-angle-down fa-xs"></i>
                 </a>
 
                 <ul class="submenu menu" id="submenu_menu">
                     <li><a href="#">CGV</a></li>
-                    <li><a href="#">Lotte Cinema</a></li>
                 </ul>
-                
             </li>
         </ul>
 
         <ul class="bet menu">
             <li>
-                <a href="#">
+                <a href="https://hongan1522.github.io/CinemaTicketOnl/">
                     <img src="images/logo.jpg" alt="Logo"></a></li>
         </ul>
 
         <ul class="right menu flex">
             <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
-            <li><a href="#"><i class="fa-solid fa-user"></i></a></li>
+            <li><a href="javascript:;"><i class="fa-solid fa-lightbulb"></i></a></li>
         </ul>
     </nav>
 
@@ -101,18 +99,21 @@
     <main class="flex">
         <section class="left">
             <div class="ticket" style="margin-left: 10px;">
-                <div class="selectCM"><a href="#">
+                <div class="selectCM">
                     <h3>Rạp</h3>
-                    <select name="cinema">
-                        <option value="CGV" selected>CGV</option>
-                        <option value="Lotte">Lotte Cinema</option>
+                    <select name="cinema" onchange="selectCinema();">
+                        <option value="CGV" selected><span id="selectedValue">CGV</span></option>
+                        <option value="Lotte Cinema">Lotte Cinema</option>
                         <option value="Cinestar">Cinestar</option>
-                        <option value="Beta">Beta Cinema</option>
+                        <option value="Beta Cinema">Beta Cinema</option>
+                        <option value="Mega GS Cinema">Mega GS Cinema</option>
+                        <option value="BHD Star">BHD Star</option>
+                        <option value="Galaxy Cinema">Galaxy Cinema</option>
                     </select>
-                </a></div>
+                </div>
 
                 <div style="padding: 10px;">
-                    <nav style="height: auto;">
+                    <nav style="height: auto; border: none;">
                         <ul class="date flex between" id="date">
                             <li><a href="#"></br><span></span></a></li>
                         </ul>
@@ -188,9 +189,9 @@
                 </table>
 
                 <ul class="imgF flex">
-                    <li><a href="#"><img src="images/footer/fb.webp" alt="Facebook"></a></li>
-                    <li><a href="#"><img src="images/footer/ins.png" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="images/footer/yt.jpg" alt="Youtube"></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100024847913989&mibextid=9R9pXO" target="_blank"><img src="images/footer/fb.webp" alt="Facebook"/></a></li>
+                    <li><a href="https://instagram.com/antran5337?igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><img src="images/footer/ins.png" alt="Instagram"></a></li>
+                    <li><a href="https://www.youtube.com/" target="_blank"><img src="images/footer/yt.jpg" alt="Youtube"></a></li>
                 </ul>
 
                 <div>&emsp;&copy; Copyright Tran Nguyen Hong An 2023</div>
@@ -199,11 +200,11 @@
             <div>
                 <ul class="list-ft">
                     <li><h4>Truy cập nhanh</h4></li>
-                    <li><a href="#">Trang chủ</a></li>
-                    <li><a href="#">Đặt vé</a></li>
-                    <li><a href="#">Lịch chiếu</a></li>
-                    <li><a href="#">Phim</a></li>
-                    <li><a href="#">Rạp</a></li>
+                    <li><a href="https://hongan1522.github.io/CinemaTicketOnl/">Trang chủ</a></li>
+                    <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index4">Đặt vé</a></li>
+                    <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index1">Lịch chiếu</a></li>
+                    <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index2">Phim</a></li>
+                    <li><a href="https://hongan1522.github.io/CinemaTicketOnl/index3">Rạp</a></li>
                 </ul>
             </div>
 

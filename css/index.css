@@ -5,16 +5,29 @@ nav {
     height: 85px;
 }
 
+.around {
+    justify-content: space-around;
+}
+
 /*movies*/
 section {
     margin: 8px;
 }
 
+main > section:nth-child(2) .subject{
+    background-image: linear-gradient(to left, #c31432 0%, #281138 80%);
+}
+
+main > section:nth-child(2) div.btn > a:hover > button {
+    background-color: maroon;
+}
+
 div.movies {
-    background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
     border: 1px solid #edf2f9;
     border-radius: 0 0 10px 10px;
     flex-wrap: wrap;
+    background-image: url(../images/bgMV.jpg);
+    
 }
 
 div.movie {
@@ -26,6 +39,7 @@ div.movie {
     margin: 4px;
     margin-top: 10px;
     border-top: transparent;
+    overflow: hidden;
 }
 
 div.movie img {
@@ -43,10 +57,14 @@ div.content-mv {
     padding-left: 1rem;
 }
 
+div.movie img:hover {
+    transform: scale(1.109);
+}
+
 /*subject*/
 .subject {
     text-align: center;
-    background-image: linear-gradient(to top, #13547a 0%, #0c3483 100%);
+    background-image: linear-gradient(to right, #13547a 0%, #092662 80%);
     color: whitesmoke;
     margin-bottom: 0;
     padding: 1rem;
@@ -55,22 +73,43 @@ div.content-mv {
 }
 
 /*btn-more*/
-div.movies > div.btn > a > button {
-    color: #f2f2f2;
+div.btn > a > button {
+    color: black;
     font-weight: bold;
     font-size: large;
     padding: 18px 25px;
     margin-top: 5px;
     margin-bottom: 10px;
     margin-left: 540px;
-    background-color: #2f4455;
+    background-color: #edf2f9;
     border-radius: 20px;
-    border: 1px solid  #edf2f9;
+    border: 2px solid;
+}
+
+div.btn > a:hover > button {
+    background-color: #2f4455;
+    transition-duration: .15s;
+    color: #fefefe;
+    border-color: #edf2f9;
 }
 
 div.btn  a {
     text-decoration: none;
     
+}
+
+div.btn > a > button.btn-new {
+    font-weight: bold;
+    font-size: medium;
+    background-color: white;
+    color: #262626;
+    border: 2px solid;
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+div.btn > a:hover > button.btn-new {
+    background-color: #c0bfba;
 }
 
 i.fa-arrow-down-long {
@@ -105,6 +144,7 @@ div.cinema {
     margin-right: 20px;
     margin-top: 10px;
     height: 141px;
+    background-color: white;
 }
 
 div.cinema  img {
@@ -112,6 +152,10 @@ div.cinema  img {
     padding-left: 40px;
     padding-top: 15px;
 }
+
+/* div.cinema  img:hover {
+    transform: rotate(30deg);
+} */
 
 div.cinema a {
     text-decoration: none;
@@ -122,7 +166,19 @@ div.content-cm {
     padding-right: 2rem;
 }
 
+div.cinema:hover {
+    border: 1.4px solid;
+}
+
 /*slider*/
+.slider {
+    border: 1.5px solid #262626;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 3px 0 3px 0;
+    background-color: white;
+}
+
 .slider-content {
     position: relative;
 }
@@ -134,18 +190,86 @@ div.content-cm {
     right: 0;
 }
 
-.slider-content img {
+.mv-slider {
+    position: relative;
+    top: 0;
+}
+
+.mv-slider img {
     width: 100%;
+    top: 0;
+}
+
+.mv-slider-ct {
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    width: 100%;
+    color: white; 
+    padding: 5px;
+}
+
+.mv-slider-ct > div:first-child {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.content-cm > div{
+    padding: 5px;
 }
 
 /*buttons*/
 .buttons {
+    margin: 5px;
     text-align: center;
 }
 
-main > section:first-child {
-    margin-top: 600px;
+.active {
+    background-color: #2f4455;
+    color: white !important;
 }
+
+/*news*/
+div.news {
+    margin: 10px;
+    background-color: #edf2f9;
+    margin-top: 0;
+}
+
+div.new > a {
+    text-decoration: none;
+}
+
+div.new div{
+    padding: 5px 0 5px 2px;
+}
+
+div.new img{
+    width: 100%;
+}
+
+div.new span {
+    color: sienna;
+}
+
+div.new-content {
+    width: 100%;
+}
+
+div.new-content > div{
+    padding-left: 40px;
+}
+
+div.new-content > div:first-child {
+    font-size: large;
+    font-weight: bold;
+    color: #c31432;
+}
+
+div.new-content > div:last-child {
+    color: grey;
+}
+
 
 
 

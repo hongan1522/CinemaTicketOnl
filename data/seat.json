@@ -1,13 +1,13 @@
 [{
     "id": 1,
-    "name": "Standard",
+    "type": "Standard",
     "price": 100
 }, {
     "id": 2,
-    "name": "VIP",
+    "type": "VIP",
     "price": 150
 }, {
     "id": 3,
-    "name": "Couple",
+    "type": "Couple",
     "price": 200
 }]

@@ -4,7 +4,7 @@ function loadRap() {
         for(let c of data) {
             h +=
             `
-            <li id="showSub${c.id}"><a href="#">
+            <li id="showSub${c.id}"><a href="javascript:;">
                 <div class="flex" style="justify-content: space-around;">
                     <div><img src="${c.img}" alt="${c.alt}"/></div>
                     <div class="name">
@@ -14,7 +14,7 @@ function loadRap() {
                     <div><i class="fa-solid fa-angle-right"></i></div>
                 </div></a>
                 
-                <ul class="submenu-cinema" id="cinema-submenu${c.id}" style="display: none;"></ul>
+                <ul class="submenu-cinema" id="cinema-submenu${c.id}" style="display:none"></ul>
             </li>
             `
         }
@@ -44,10 +44,10 @@ function loadSubMenuRap() {
                         </a></li>
                         `
                         
-                        let e = document.getElementById("cinema-submenu"+c.id);
-                        if (e !== null)
-                            e.innerHTML += h;
                     }
+                    let e = document.getElementById("cinema-submenu"+l.cinema_id);
+                    if (e !== null)
+                        e.innerHTML += h;
                 }
             }
         })
@@ -74,15 +74,13 @@ function loadTime() {
                             e.innerHTML = h;
 
                     document.getElementById("showSub"+c.id).addEventListener("click", function showCinema()  {
-                        document.getElementById("cinema-submenu"+c.id).style.display='block';
+                        let d = document.getElementById("cinema-submenu"+c.id)
+                        if (d.style.display === 'none') {
+                            d.style.display = 'block';
+                        } else {
+                            d.style.display = 'none';
+                        }
                         });
-                    
-                    // let hide = "";
-
-                    // if(document.getElementById("cinema-submenu"+c.id).style.display='block')
-                    //     document.getElementById("showSub"+c.id).addEventListener("click", function showCinema()  {
-                    //         document.getElementById("cinema-submenu"+c.id).style.display='none';
-                    //     });
                     }
 
                 }
@@ -128,6 +126,38 @@ function loadReview() {
 
     })
 };
+
+function selectCinema() {
+    fetch("data/cinema.json").then(res => res.json()).then(data => { 
+    let a = document.querySelector("select[name='cinema']");
+    let b = a.value;
+    let tmp = 0;
+    let h = "";
+        for(let c of data) {
+            if(c.name.includes(b))
+                h +=
+                `
+                <li id="showSub${c.id}"><a href="javascript:;">
+                    <div class="flex" style="justify-content: space-around;">
+                        <div><img src="${c.img}" alt="${c.alt}"/></div>
+                        <div class="name">
+                            <div>${c.name}</div>
+                            <div><i class="fa-solid fa-location-dot"></i>&ensp;${c.cinema}</div>
+                        </div>
+                        <div><i class="fa-solid fa-angle-right"></i></div>
+                    </div></a>
+                    
+                    <ul class="submenu-cinema" id="cinema-submenu${c.id}"  style="display:none"></ul>
+                </li>
+                `
+        }
+
+        let e = document.getElementById("cinema-ticket");
+        if (e !== null)
+            e.innerHTML = h;
+    })
+    
+}
 
 window.onload = () => {
     loadSubmenu();

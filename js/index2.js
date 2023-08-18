@@ -3,7 +3,7 @@ function loadMov() {
         let h ="";
         for (let m of data) {
             h += 
-            `<div class="movie animate__animated animate__zoomInDown">
+            `<div class="movie wow animate__zoomInDown">
                 <a href="#">
                     <div><img src="${m.img}" alt="Film"/></div>
                     <div class="content-mv">
@@ -23,6 +23,5 @@ function loadMov() {
 window.onload = () => {
     loadSubmenu();
     loadMov();
-    
 }
    
