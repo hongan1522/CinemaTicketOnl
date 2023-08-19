@@ -58,17 +58,22 @@
     </nav>
 
     <main>
-        <h2>Thông tin đặt vé</h2>
-        <form id="bookingForm">
-            <label for="name">Họ và tên:</label>
-            <input type="text" id="name" name="name" required>
+        <h1 style="text-align: center;">Thông tin đặt vé</h1>
+        <form id="bookingForm" class="fmBook flex between">
+            <div>
+                <label for="name">Họ và tên:</label>
+                <input type="text" id="name" required>
+            </div>
             
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+            </div>
             
-            <label for="seats">Số lượng vé:</label>
-            <input type="number" id="seats" name="seats" min="1" required>
-
+            <div>
+                <label for="seats">Số lượng vé:</label>
+                <input type="number" id="seats" min="1" required>
+            </div>
             
 
             <select name="cinema" onchange="selectCinema();">
@@ -81,33 +86,54 @@
                 <option value="Galaxy Cinema">Galaxy Cinema</option>
             </select>
 
-            <button type="submit">Đặt vé</button>
+            <div>
+                <button type="submit" class="btnBook"><span>Đặt vé</span></button>
+            </div>
         </form>
 
-        <h1>Chọn ghế và đặt vé</h1>
-        <div class="flex">
+        <h2 style="margin-left: 350px;">Chọn ghế</h2>
+        <div class="flex" style="margin-left: 200px;">
             <div class="flex seats">
-                <div class="seat normal"></div>
+                <div class="seat normal" style="width: 30px; pointer-events: none;"></div>
                 <div>&ensp;Standard</div>
             </div>
             <div class="flex seats">
-                <div class="seat vip"></div>
+                <div class="seat vip" style="width: 30px; pointer-events: none;"></div>
                 <div>&ensp;VIP</div>
             </div>
             <div class="flex seats">
-                <div class="seat couple"></div>
+                <div class="seat couple" style="width: 30px; pointer-events: none;"></div>
                 <div>&emsp;Couple</div>
+            </div>
+        </div>
+        </br></br>
+
+        <div class="flex">
+            <table class="seats" id="seatMap">
+                <tr>
+                    <td>A</td>
+                    <td><div class="seat couple"><a href="#">2</a></div></td>
+                </tr>
+                <tr style="background-color: gainsboro; text-align: center; height: 30px;">
+                    <td colspan="2" >Màn hình</td>
+                </tr>
+            </table>
+
+            <div class="info">
+                <div class="infoMV" id="infoMV">
+                    <div>Xứ sở các nguyên tố</div>
+                    <div><span>Lottle Gò Vấp</span></div>
+                    <div>Suất <span>14:00</span> - Ngày: <span>22/08</span></div>
+                    <div>Phòng chiếu <span>06</span></div>
+                </div>
+                <div class="total">
+                    <div>Tổng tiền</div>
+                </div>
             </div>
         </div>
         
 
-        <h2>Chọn ghế</h2>
-        <div id="seatMap" class="flex">
-            <!-- Thêm các ghế vào đây, ví dụ: -->
-            <div class="seat normal" data-price="100"><a href="#">A1</a></div>
-            <div class="seat vip" data-price="150">B2</div>
-            <div class="seat couple" data-price="200" style="width: 60px;">C3</div>
-        </div>
+        
     </main>
 
     <footer>

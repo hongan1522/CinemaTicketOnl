@@ -5,28 +5,128 @@ nav {
     height: 85px;
 }
 
-/*seat*/
-div.seats {
-    margin-right: 20px;
-    margin-left: 20px;
-    flex-wrap: wrap;
+/*formBooking*/
+.fmBook {
+    margin: 8px;
 }
 
-div.seat {
-    width: 30px;
+.btnBook {
+    width: 90px;
+    height: 30px; 
+    background-color: #edf2f9;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.btnBook > span {
+    font-weight: bold;
+    text-transform:uppercase ;
+    color: black;
+}
+
+.btnBook:hover {
+    background-color: gainsboro;
+    border: 2px solid;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 30px 0 rgba(0,0,0,0.19);
+}
+
+.btnBook:hover > span {
+    font-weight: bolder;
+}
+.button {  display: inline-block;  
+    padding: 15px 25px;  
+    font-size: 24px;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    outline: none;  color: #fff;  
+    background-color: purple;  border: none;  
+    border-radius: 15px;  box-shadow: 0 9px #999;}
+.button:hover {background-color: #58257b}
+.button:active {  background-color: #58257b;  box-shadow: 0 5px #666;  transform: translateY(4px);}
+
+/*seat*/
+.seats {
+    margin-right: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.seat {
+    width: 35px;
     height: 30px;
     margin-right: 10px;
     border: 1px solid #ccc;
+    text-align: center;
 }
 
-div.normal {
+.seat a {
+    text-decoration: none;
+    color: #262626;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+table.seats {
+    width: 50%;
+}
+
+table.seats div {
+    position: relative;
+}
+
+.normal a {
+    color: whitesmoke;
+}
+
+.normal {
     background-color: seagreen;
 }
 
-div.vip {
-    background-color: gold;
+.normal:hover {
+    background-color: #64b989;
 }
 
-div.couple {
+.vip {
+    background-color: gold;
+    width: 40px;
+}
+
+.vip:hover {
+    background-color: #f6e586;
+}
+
+.couple {
     background-color: steelblue;
+    width: 60px;
+}
+
+.couple:hover {
+    background-color: #6eade0;
+}
+
+.selected {
+    background-image: linear-gradient(to left #bbbfbe 50%, #191c1c 100%);
+}
+
+/*info*/
+div.info {
+    width: 100%;
+}
+
+div.info > div {
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 50px;
+}
+
+div.infoMV span {
+    font-weight: bold;
+}
+
+div.total {
+
 }

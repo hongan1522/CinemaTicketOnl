@@ -2,6 +2,6 @@
     "id": 1,
     "cinema_id":2,
     "VIP": 10,
-    "Standard":10,
-    "Couple":10
+    "Standard":50,
+    "Couple":20
 }]
