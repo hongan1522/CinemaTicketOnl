@@ -105,6 +105,10 @@ div.theater {
     background-color: #ffffff;
 }
 
+div.theater:hover {
+    border: 2px solid;
+}
+
 div.theater  img {
     width: 40%;
     padding-top: 8px;
