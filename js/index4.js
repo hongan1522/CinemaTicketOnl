@@ -19,7 +19,7 @@ function loadSeat() {
                         currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
                     }
                     currentRow += `
-                        <td id="seatCoup${i}"><div class="seat couple" data-price=120.000><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
+                        <td id="seatCoup${i}"><div class="seat couple" data-price=120.000><a href="javascript:;">${String.fromCharCode(char)}${i%10+1}</a></div></td>
                     `
                     count++;
                     if (count >= 10) {
@@ -36,7 +36,7 @@ function loadSeat() {
                         currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
                     }
                     currentRow += `
-                    <td id="seatStand${i}"><div class="seat normal" data-price=80.000><a href="#">${String.fromCharCode(char)}${i%10 + 1}</a></div></td>
+                    <td id="seatStand${i}"><div class="seat normal" data-price=80.000><a href="javascript:;">${String.fromCharCode(char)}${i%10 + 1}</a></div></td>
                     `;
                     count++;
                     if (count >= 10) {
@@ -53,7 +53,7 @@ function loadSeat() {
                         currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
                     }
                     currentRow += `
-                    <td id="seatVip${i}"><div class="seat vip" data-price=150.000><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
+                    <td id="seatVip${i}"><div class="seat vip" data-price=150.000><a href="javascript:;">${String.fromCharCode(char)}${i%10+1}</a></div></td>
                     `
                     count++;
                     if (count >= 10) {

@@ -122,4 +122,10 @@ div.search a {
     color: black;
 }
 
+@media screen and (max-width: 600px) {
+    body {
+        background-color: beige;
+    }
+}
+
 
