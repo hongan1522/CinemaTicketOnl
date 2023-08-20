@@ -52,9 +52,10 @@
         </ul>
 
         <ul class="right menu flex">
-            <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+            <li><a href="javascript:;" id="showIframe"><i class="fa-solid fa-location-dot"></i></a></li>
             <li><a href="javascript:;"><i class="fa-solid fa-lightbulb"></i></a></li>
         </ul>
+        <iframe id="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62712.50252472413!2d106.59744392167968!3d10.770551399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edde029b133%3A0x97e90e1306ccf98e!2zQ0dWIFPGsCBW4bqhbiBI4bqhbmg!5e0!3m2!1svi!2s!4v1692532740733!5m2!1svi!2s"></iframe>
     </nav>
 
     <main>
@@ -105,6 +106,11 @@
                 <div class="seat couple" style="width: 30px; pointer-events: none;"></div>
                 <div>&emsp;Couple</div>
             </div>
+            <div class="flex seats">
+                <div class="seat" style="width: 30px; background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+                background-blend-mode: normal, lighten, soft-light;"></div>
+                <div>&emsp;Selected</div>
+            </div>
         </div>
         </br></br>
 
@@ -122,12 +128,12 @@
             <div class="info">
                 <div class="infoMV" id="infoMV">
                     <div>Xứ sở các nguyên tố</div>
-                    <div><span>Lottle Gò Vấp</span></div>
+                    <div>Rạp <span>Lottle Gò Vấp</span></div>
                     <div>Suất <span>14:00</span> - Ngày: <span>22/08</span></div>
                     <div>Phòng chiếu <span>06</span></div>
                 </div>
                 <div class="total">
-                    <div>Tổng tiền</div>
+                    <div><span style="font-weight: bold;">Tổng tiền:&ensp;</span><span id="totalPrice">0 VNĐ</span></div>
                 </div>
             </div>
         </div>

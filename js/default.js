@@ -29,6 +29,17 @@ $(document).ready(() => {
     light.addEventListener("click", function() {
         document.body.classList.toggle("dark-mode");
     });
+
+    let iframe = document.getElementById("googleMap");
+    let showIframeLink = document.getElementById("showIframe");
+
+    showIframeLink.addEventListener("click", function() {
+        if (iframe.style.display === "block") {
+            iframe.style.display = "none";
+        } else {
+            iframe.style.display = "block";
+        }
+        });  
 });
 
 function loadSubmenu() {

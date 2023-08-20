@@ -19,7 +19,7 @@ function loadSeat() {
                         currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
                     }
                     currentRow += `
-                        <td id="seatCoup${i}"><div class="seat couple"><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
+                        <td id="seatCoup${i}"><div class="seat couple" data-price=120.000><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
                     `
                     count++;
                     if (count >= 10) {
@@ -36,7 +36,7 @@ function loadSeat() {
                         currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
                     }
                     currentRow += `
-                    <td id="seatStand${i}"><div class="seat normal"><a href="#">${String.fromCharCode(char)}${i%10 + 1}</a></div></td>
+                    <td id="seatStand${i}"><div class="seat normal" data-price=80.000><a href="#">${String.fromCharCode(char)}${i%10 + 1}</a></div></td>
                     `;
                     count++;
                     if (count >= 10) {
@@ -53,7 +53,7 @@ function loadSeat() {
                         currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
                     }
                     currentRow += `
-                    <td id="seatVip${i}"><div class="seat vip"><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
+                    <td id="seatVip${i}"><div class="seat vip" data-price=150.000><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
                     `
                     count++;
                     if (count >= 10) {
@@ -79,89 +79,36 @@ function loadSeat() {
         }
 
         let seats = document.querySelectorAll(".seat");
-            alert(seats.values)
-        document.addEventListener("DOMContentLoaded", function seatSelected (event) {
-            
-            if (event.target.classList.contains("seat")) {
-                if (event.target.classList.contains("selected")) {
-                    event.target.classList.remove("selected"); 
-                } else {
-                    event.target.classList.add("selected"); 
-                }
-            total(); 
-            }
-
-            let seats = document.querySelectorAll(".seat");
-            alert(seats)
-            seats.forEach(seat => {
-                seat.addEventListener("click", seatSelected);
-                console.log(seat)
+        seats.forEach(seat => {
+            seat.addEventListener("click", function () {
+                seat.classList.toggle("selected"); 
+                total(); 
+                })
             });
-    })
 
-    });
-    });
+        });
+    })
 }           
 
 function total() {
-    fetch("data/seatMap.json").then(res => res.json()).then(data => {
-        let id1 = document.getElementById("seatCoup"+i);
-        let id2 = document.getElementById("seatStand"+i);
-        let id3 = document.getElementById("seatVip"+i);
-        for(let s of data) {
-            for(let i = 0; i < s.Standard; i++) {
-                if (count === 0) {
-                    currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
-                }
-                currentRow += `
-                    <td id="seatCoup${i}"><div class="seat couple"><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
-                `
-                count++;
-                if (count >= 10) {
-                    currentRow += '</tr>';
-                    h += currentRow;
-                    currentRow = '';
-                    count = 0;
-                    char++;
-                }
-            };
+    let selectedSeats = document.querySelectorAll(".seat.selected");
+    let totalPrice = 0;
 
-                for (let i = 0; i < s.Standard; i++) {
-                    if (count === 0) {
-                        currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
-                    }
-                    currentRow += `
-                    <td id="seatStand${i}"><div class="seat normal"><a href="#">${String.fromCharCode(char)}${i%10 + 1}</a></div></td>
-                    `;
-                    count++;
-                    if (count >= 10) {
-                        currentRow += '</tr>';
-                        h += currentRow;
-                        currentRow = '';
-                        count = 0;
-                        char++;
-                    }
-                }
-
-                for (let i = 0; i < s.VIP; i++) {
-                    if (count === 0) {
-                        currentRow += `<tr><td>${String.fromCharCode(char)}</td>`;
-                    }
-                    currentRow += `
-                    <td id="seatVip${i}"><div class="seat vip"><a href="#">${String.fromCharCode(char)}${i%10+1}</a></div></td>
-                    `
-                    count++;
-                    if (count >= 10) {
-                        currentRow += '</tr>';
-                        h += currentRow;
-                        currentRow = '';
-                        count = 0;
-                        char++;
-                    }
-                }
-        }
+    selectedSeats.forEach(seat => {
+        let price = parseInt(seat.getAttribute("data-price"))
+        totalPrice += price;
     });
+
+    let formattedTotalPrice = totalPrice.toLocaleString("vi-VN", {
+        currency: "VND",
+        maximumFractionDigits: 0
+    });
+
+    let totalPriceSpan = document.getElementById("totalPrice");
+
+    totalPriceSpan.textContent = formattedTotalPrice + ".000 VNĐ";
 }
+
 
 window.onload = () => {
     loadSubmenu();

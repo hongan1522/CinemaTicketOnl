@@ -22,9 +22,10 @@ function loadRap() {
         let e = document.getElementById("cinema-ticket");
         if (e !== null)
             e.innerHTML = h;
+
+        
     })
 };
-
 
 function loadSubMenuRap() {
     fetch("data/cinema.json").then(res => res.json()).then(data => { 
@@ -32,6 +33,7 @@ function loadSubMenuRap() {
             let h = "";
             for(let c of data) {
                 for (let l of data1) {
+                    h = "";
                     if(c.id === l.cinema_id) {
                         h = `
                         <li><a href="#">
@@ -40,10 +42,8 @@ function loadSubMenuRap() {
                                 <div style = "padding: 5px"><span>${l.loca}</span></div>
                                 <div id="time-line${l.id}" class="flex"></div>
                             </div>
-                            
                         </a></li>
                         `
-                        
                     }
                     let e = document.getElementById("cinema-submenu"+l.cinema_id);
                     if (e !== null)
@@ -79,6 +79,20 @@ function loadTime() {
                             d.style.display = 'block';
                         } else {
                             d.style.display = 'none';
+                        }
+                        });
+                    
+                    
+                    let s = document.getElementById("showSub"+c.id);
+                    let isClicked = false;
+
+                    s.addEventListener("click", function() {
+                        if (!isClicked) {
+                            s.style.backgroundColor = "#f0ede9";
+                            isClicked = true;
+                        } else {
+                            s.style.backgroundColor = "#fefefe"; 
+                            isClicked = false;
                         }
                         });
                     }
@@ -131,7 +145,6 @@ function selectCinema() {
     fetch("data/cinema.json").then(res => res.json()).then(data => { 
     let a = document.querySelector("select[name='cinema']");
     let b = a.value;
-    let tmp = 0;
     let h = "";
         for(let c of data) {
             if(c.name.includes(b))

@@ -20,6 +20,21 @@ function loadMov() {
     })
 }
 
+function searchMV(obj) {
+    let kw = obj.value.toLowerCase();
+    let movies = document.querySelectorAll(".movie");
+
+    movies.forEach(movie => {
+        let h3 = movie.querySelector("h3");
+        let movieName = h3.textContent.toLowerCase();
+        if (movieName.includes(kw)) {
+            movie.style.display = "block";
+        } else {
+            movie.style.display = "none";
+        }
+    });
+}
+
 window.onload = () => {
     loadSubmenu();
     loadMov();

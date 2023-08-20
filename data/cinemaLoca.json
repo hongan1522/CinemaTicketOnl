@@ -36,10 +36,10 @@
     "location": "Tầng 7 Hùng Vương Plaza, 126 Hùng Vương, Quận 5, TPHCM"
 }, {
     "id": 7,
-    "alt": "CGV",
-    "name": "CGV IMC Trần Quang Khải",
-    "img": "images/cinemas/cgv.png",
-    "location": "Tầng 2, 3 Trung Tâm Văn Hóa Đa Năng iMC, số 62 đường Trần Quang Khải, phường Tân Định, quận 1, TPHCM"
+    "alt": "Beta",
+    "name": "Beta Quang Trung",
+    "img": "images/cinemas/beta.png",
+    "location": "Số 645 Quang Trung, Phường 11, Quận Gò Vấp, TP.HCM"
 }, {
     "id": 8,
     "alt": "Cinestar",
@@ -52,4 +52,70 @@
     "name": "CineStar Quốc Thanh",
     "img": "images/cinemas/cinestar.jpg",
     "location": "271 Nguyễn Trãi, P. Nguyễn Cư Trinh, Quận 1, TPHCM"
+}, {
+    "id": 10,
+    "alt": "Lotte",
+    "name": "Lotte Gò Vấp",
+    "img": "images/cinemas/lotte.png",
+    "location": "Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Quận Gò Vấp"
+}, {
+    "id": 11,
+    "alt": "Lotte",
+    "name": "Lotte Cộng Hoà",
+    "img": "images/cinemas/lotte.png",
+    "location": "Tầng 4, Pico Plaza, 20 Cộng Hòa, P.12, Quận Tân Bình"
+}, {
+    "id": 12,
+    "alt": "Lotte",
+    "name": "Lotte Nam Sài Gòn",
+    "img": "images/cinemas/lotte.png",
+    "location": "Tầng 3, TTTM Lotte, số 469 đường Nguyễn Hữu Thọ, P.Tân Hưng, Quận 7"
+}, {
+    "id": 13,
+    "alt": "Galaxy",
+    "name": "Galaxy Quang Trung",
+    "img": "images/cinemas/galaxy.png",
+    "location": "Lầu 3 | Co.op Mart, 304A Quang Trung, Phường 11, Quận Gò Vấp, TP.HCM"
+}, {
+    "id": 14,
+    "alt": "Galaxy",
+    "name": "Galaxy Huỳnh Tấn Phát",
+    "img": "images/cinemas/galaxy.png",
+    "location": "Lầu 2 | Co.opmart Huỳnh Tấn Phát, 1362 Huỳnh Tấn Phát, Phú Mỹ, Quận 7, TP.HCM"
+}, {
+    "id": 15,
+    "alt": "Galaxy",
+    "name": "Galaxy Tân Bình",
+    "img": "images/cinemas/galaxy.png",
+    "location": "246 Đường Nguyễn Hồng Đào, Phường 13, Tân Bình, TP.HCM"
+}, {
+    "id": 16,
+    "alt": "BHD Star",
+    "name": "BHD Star Lê Văn Việt",
+    "img": "images/cinemas/bhd.jpg",
+    "location": "Tầng 4 | Vincom Plaza Lê Văn Việt, số 50 đường Lê Văn Việt, Quận 9, TP.HCM"
+}, {
+    "id": 17,
+    "alt": "BHD Star",
+    "name": "BHD Star Quang Trung",
+    "img": "images/cinemas/bhd.jpg",
+    "location": "Tầng B1, B2 | Vincom Plaza Quang Trung, số 190 đường Quang Trung, quận Gò Vấp, TP.HCM"
+}, {
+    "id": 18,
+    "alt": "BHD Star",
+    "name": "BHD Star Phạm Hùng",
+    "img": "images/cinemas/bhd.jpg",
+    "location": "Tầng 4 | Trung tâm thương mại Satra Phạm Hùng, số C6/27 đường Phạm Hùng, huyện Bình Chánh, TP.HCM"
+}, {
+    "id": 19,
+    "alt": "Mega GS",
+    "name": "Mega GS Cao Thắng",
+    "img": "images/cinemas/mega.jpg",
+    "location": "Tầng 6, 7 | Sài Gòn Mall, số 19 đường Cao Thắng, phường 2, quận 3, TP.HCM"
+}, {
+    "id": 20,
+    "alt": "Mega GS",
+    "name": "Mega GS Cinemas Lý Chính Thắng",
+    "img": "images/cinemas/mega.jpg",
+    "location": "212 Lý Chính Thắng, P. 9, Quận 3, TP.HCM"
 }]

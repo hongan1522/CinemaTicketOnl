@@ -47,8 +47,8 @@ nav {
 
 /*seat*/
 .seats {
-    margin-right: 20px;
-    margin-left: 20px;
+    
+    margin-left: 10px;
     font-weight: bold;
 }
 
@@ -108,19 +108,21 @@ table.seats div {
 }
 
 .selected {
-    background-image: linear-gradient(to left #bbbfbe 50%, #191c1c 100%);
+    background-image: linear-gradient(to left, #BDBBBE 0%, #9D9EA3 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
 }
 
 /*info*/
 div.info {
-    width: 100%;
+    width: 140%;
 }
 
 div.info > div {
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 8px;
     padding: 10px;
     margin: 50px;
+    box-shadow: 5px 5px 5px #cecccc;
 }
 
 div.infoMV span {

@@ -24,8 +24,96 @@
 {
     "id": 4,
     "cinema_id": 2,
-    "name": "CGV",
-    "loca": "Tầng 3, Lotte Mart Gò Vấp, 242 Nguyễn Văn Lượng, Q.Gò Vấp, TP.HCM",
+    "name": "CGV Aeon Tân Phú",
+    "loca": "Lầu 3, Aeon Mall 30 Bờ Bao Tân Thắng, P. Sơn Kỳ Quận Tân Phú, TPHCM",
     "time": ["7:00", "10:30", "14:00"],
+    "room": "06"
+},
+{
+    "id": 5,
+    "cinema_id": 2,
+    "name": "CGV Aeon Bình Tân",
+    "loca": "Tầng 3, Trung tâm thương mại Aeon Mall Bình Tân, Số 1 đường số 17A, khu phố 11, phường Bình Trị Đông B, quận Bình Tân, TPHCM",
+    "time": ["7:30", "9:30", "14:00", "15:00"],
+    "room": "06"
+}, 
+{
+    "id": 6,
+    "cinema_id": 2,
+    "name": "CGV Crescent Mall",
+    "loca": "Tầng 5 Crescent Mall, số 101 đường Tôn Dật Tiên, phường Tân Phú, quận 7, TPHCM",
+    "time": ["7:30", "19:30"],
+    "room": "06"
+},
+{
+    "id": 7,
+    "cinema_id": 3,
+    "name": "CineStar Hai Bà Trưng",
+    "loca": "135 Hai Bà Trưng, P. Bến Nghé, Quận 1, TPHCM",
+    "time": ["7:30", "11:30", "16:00"],
+    "room": "06"
+},
+{
+    "id": 8,
+    "cinema_id": 4,
+    "name": "Beta Quang Trung",
+    "loca": "Số 645 Quang Trung, Phường 11, Quận Gò Vấp, TP.HCM",
+    "time": ["7:30", "19:30", "20:00"],
+    "room": "06"
+},
+{
+    "id": 9,
+    "cinema_id": 5,
+    "name": "Mega GS Cao Thắng",
+    "loca": "Tầng 6, 7 | Sài Gòn Mall, số 19 đường Cao Thắng, phường 2, quận 3, TP.HCM",
+    "time": ["7:30", "19:30", "20:00", "21:00"],
+    "room": "06"
+},
+{
+    "id": 10,
+    "cinema_id": 6,
+    "name": "BHD Star Lê Văn Việt",
+    "loca": "Tầng 4 | Vincom Plaza Lê Văn Việt, số 50 đường Lê Văn Việt, Quận 9, TP.HCM",
+    "time": ["7:30", "15:30", "22:00"],
+    "room": "06"
+},
+{
+    "id": 11,
+    "cinema_id": 6,
+    "name": "BHD Star Quang Trung",
+    "loca": "Tầng B1, B2 | Vincom Plaza Quang Trung, số 190 đường Quang Trung, quận Gò Vấp, TP.HCM",
+    "time": ["7:30", "15:30", "20:15"],
+    "room": "06"
+},
+{
+    "id": 12,
+    "cinema_id": 6,
+    "name": "BHD Star Phạm Hùng",
+    "loca": "Tầng 4 | Trung tâm thương mại Satra Phạm Hùng, số C6/27 đường Phạm Hùng, huyện Bình Chánh, TP.HCM",
+    "time": ["7:00", "15:30", "20:15", "20:45"],
+    "room": "06"
+},
+{
+    "id": 13,
+    "cinema_id": 7,
+    "name": "Galaxy Quang Trung",
+    "loca": "Lầu 3 | Co.op Mart, 304A Quang Trung, Phường 11, Quận Gò Vấp, TP.HCM",
+    "time": ["7:30", "15:30", "16:10", "20:45"],
+    "room": "06"
+},
+{
+    "id": 14,
+    "cinema_id": 7,
+    "name": "Galaxy Huỳnh Tấn Phát",
+    "loca": "Lầu 2 | Co.opmart Huỳnh Tấn Phát, 1362 Huỳnh Tấn Phát, Phú Mỹ, Quận 7, TP.HCM",
+    "time": ["7:30", "15:30", "21:15"],
+    "room": "06"
+}, 
+{
+    "id": 15,
+    "cinema_id": 7,
+    "name": "Galaxy Tân Bình",
+    "loca": "246 Đường Nguyễn Hồng Đào, Phường 13, Tân Bình, TP.HCM",
+    "time": ["7:30", "13:30", "21:45"],
     "room": "06"
 }]

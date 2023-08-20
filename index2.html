@@ -17,11 +17,11 @@
     <script>
         wow = new WOW(
                       {
-                      boxClass:     'wow',      // default
-                      animateClass: 'animate__animated', // default
-                      offset:       0,          // default
-                      mobile:       true,       // default
-                      live:         true        // default
+                      boxClass:     'wow',      
+                      animateClass: 'animate__animated', 
+                      offset:       0,          
+                      mobile:       true,       
+                      live:         true       
                     }
                     )
         wow.init();
@@ -68,14 +68,15 @@
         </ul>
 
         <ul class="right menu flex">
-            <li><a href="#"><i class="fa-solid fa-location-dot"></i></a></li>
+            <li><a href="javascript:;" id="showIframe"><i class="fa-solid fa-location-dot"></i></a></li>
             <li><a href="javascript:;"><i class="fa-solid fa-lightbulb"></i></a></li>
         </ul>
+        <iframe id="googleMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62712.50252472413!2d106.59744392167968!3d10.770551399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752edde029b133%3A0x97e90e1306ccf98e!2zQ0dWIFPGsCBW4bqhbiBI4bqhbmg!5e0!3m2!1svi!2s!4v1692532740733!5m2!1svi!2s"></iframe>
     </nav>
 
     <h1>Phim đang chiếu</h1>
     <main style="align-items: normal;">
-        <div class="select menu flex">
+        <div class="select menu flex between">
             <ul class="cates">
                 <li><a href="#">Thể loại
                     <i class="fa-solid fa-angle-down fa-xs"></i>
@@ -92,6 +93,7 @@
                     </ul>
                 </li>
             </ul>
+            <div></div>
 
             <ul class="cates">
                 <li><a href="#">Quốc Gia
@@ -106,8 +108,18 @@
                         <li><a href="#">Trung Quốc</a></li>                        </ul>
                 </li>
             </ul>
+
+            <div></div>
+
+            <div class="search">
+                <a href="#">
+                    <input type="search" onchange="searchMV(this)" placeholder="Tìm tên phim..." id="search"/>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </a>
+            </div>
+
+            <ul id="suggest"></ul>
         </div>
-        <!-- hover div đc luôn, sửa lại -->
 
         <div class="movies flex" id="movies">
             <div class="movie">
@@ -118,18 +130,6 @@
                 </div>
             </div>
         </div>
-
-        <!-- <section>
-            <div>
-                <div class="flex">
-                    <div></div>
-                </div>
-            </div>
-        </section>
-
-        <section>review phim</section>
-
-        <section>bình luận</section> -->
     </main>
 
     <footer>
