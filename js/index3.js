@@ -21,8 +21,6 @@ $(document).ready(() => {
         }, 500);
         $("#suggest").css("display", "none");
     });
-
-    
 })
 
 function loadLoca() {
